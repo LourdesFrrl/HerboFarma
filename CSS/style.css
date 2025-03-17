@@ -1,0 +1,22 @@
+
+.imgFarmacia{
+    height: 300px;
+    object-fit: cover;
+}
+
+@media (min-width:768px) and (max-width:991px) {
+ 
+    .imgFarmacia{
+        height: 350px;
+}
+    
+}
+@media (min-width:992px){
+ 
+    .imgFarmacia{
+        height: 550px;
+        object-position: 100% 70%;
+}
+    
+}
+
