@@ -30,3 +30,8 @@ body{
 main{
   flex-grow: 1;
 }
+
+.imgBanner{
+    object-fit: cover;
+    height: 300px;
+}
