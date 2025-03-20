@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HerboFarma</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <link rel="stylesheet" href="./CSS/style.css" />
     <link rel="stylesheet" href="./CSS/bootstrap.min.css" />
     <meta
@@ -12,7 +16,62 @@
     />
   </head>
   <body>
-    <header></header>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-success">
+        <div class="container-fluid">
+          <i class="bi bi-plus-square-fill fs-1"></i>
+          <a class="navbar-brand ms-2" href="index.html">HerboFarma</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active mx-1"
+                  aria-current="page"
+                  href="index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Categoria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-3" href="#">Acerca de Nosotros</a>
+              </li>
+              <li class="nav-item d-flex align-items-center">
+                <i class="bi bi-person-circle fs-5"></i>
+                <a class="nav-link me-3" href="#">Iniciar sesion</a>
+              </li>
+            </ul>
+            <a href="" class="nav-link me-2">
+              <i class="bi bi-cart4 fs-5"></i>
+            </a>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Buscar..."
+                aria-label="Search"
+              />
+              <button class="btn btn-light" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
     <main>
       <section id="carouselFarmacia" class="carousel slide">
         <div class="carousel-indicators">
@@ -108,44 +167,49 @@
       <section class="container">
         <h2 class="h1 text-center">Novedades</h2>
         <div class="row">
-      
           <article class="col-12 col-md-6 col-lg-6">
-            <div> <img
-              src="./img/seccion Novedades index/formulas magistrales.jpg"
-              alt="formulas magistrales"
-              class="img-fluid"
-            /></div>
+            <div>
+              <img
+                src="./img/seccion Novedades index/formulas magistrales.jpg"
+                alt="formulas magistrales"
+                class="img-fluid"
+              />
+            </div>
             <div>
               <h3>Formulaciones Magistrales Personalizadas</h3>
-            <p>
-              Ahora en nuestro laboratorio elaboramos
-              <strong>fórmulas magistrales</strong> adaptadas a tus necesidades.
-              Consulta con nosotros y accede a tratamientos personalizados.
-            </p>
+              <p>
+                Ahora en nuestro laboratorio elaboramos
+                <strong>fórmulas magistrales</strong> adaptadas a tus
+                necesidades. Consulta con nosotros y accede a tratamientos
+                personalizados.
+              </p>
             </div>
           </article>
-          
-          </article>
           <article class="col-12 col-md-6 col-lg-6">
-            <div> <img
-              src="./img/seccion Novedades index/suplementos deportivos.jpg"
-              alt="suplementos deportivos"
-              class="img-fluid"/></div>
-            <div><h3>Suplementos Deportivos</h3>
+            <div>
+              <img
+                src="./img/seccion Novedades index/suplementos deportivos.jpg"
+                alt="suplementos deportivos"
+                class="img-fluid"
+              />
+            </div>
+            <div>
+              <h3>Suplementos Deportivos</h3>
               <p>
                 ¡Novedad en nuestra farmacia! Incorporamos
                 <strong>suplementos deportivos</strong> de alta calidad para
                 potenciar tu rendimiento y bienestar
-              </p></div>
-           
-            
+              </p>
+            </div>
           </article>
         </div>
       </section>
 
       <section class="container">
         <h2 class="h1 text-center">Nuestros productos</h2>
-        <h2 class="h2 text-center">Especialidades medicinales de venta libre</h2>
+        <h2 class="h2 text-center">
+          Especialidades medicinales de venta libre
+        </h2>
 
         <div class="row">
           <article class="col-6 col-md-4 col-lg-3 my-2">
@@ -164,7 +228,7 @@
               </div>
             </div>
           </article>
-          
+
           <article class="col-6 col-md-4 col-lg-3 my-2">
             <div class="card h-100">
               <div class="card-header">
@@ -181,7 +245,7 @@
               </div>
             </div>
           </article>
-          
+
           <article class="col-6 col-md-4 col-lg-3 my-2">
             <div class="card h-100">
               <div class="card-header">
@@ -198,7 +262,7 @@
               </div>
             </div>
           </article>
-          
+
           <article class="col-6 col-md-4 col-lg-3 my-2">
             <div class="card h-100">
               <div class="card-header">
@@ -215,7 +279,7 @@
               </div>
             </div>
           </article>
-          
+
           <article class="col-6 col-md-4 col-lg-3 my-2">
             <div class="card h-100">
               <div class="card-header">
@@ -232,7 +296,7 @@
               </div>
             </div>
           </article>
-          
+
           <article class="col-6 col-md-4 col-lg-3 my-2">
             <div class="card h-100">
               <div class="card-header">
@@ -249,7 +313,7 @@
               </div>
             </div>
           </article>
-          
+
           <article class="col-6 col-md-4 col-lg-3 my-2">
             <div class="card h-100">
               <div class="card-header">
@@ -266,7 +330,7 @@
               </div>
             </div>
           </article>
-          
+
           <article class="col-6 col-md-4 col-lg-3 my-2">
             <div class="card h-100">
               <div class="card-header">
@@ -283,8 +347,6 @@
               </div>
             </div>
           </article>
-          
-
         </div>
       </section>
 
@@ -310,13 +372,15 @@
                   <li>Reduce el riesgo de enfermedades cardiovasculares</li>
                 </ul>
               </div>
-              <div class="card-footer d-flex justify-content-between align-items-center">
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
                 <p>Precio: $1.000</p>
                 <a href="#" class="btn btn-primary">Comprar</a>
               </div>
             </div>
           </article>
-          
+
           <article class="col-12 col-md-3 col-lg-3 my-3">
             <div class="card h-100">
               <div class="card-header">
@@ -335,13 +399,15 @@
                   <li>Propiedades antiinflamatorias</li>
                 </ul>
               </div>
-              <div class="card-footer d-flex justify-content-between align-items-center">
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
                 <p>Precio: $1.200</p>
                 <a href="#" class="btn btn-primary">Comprar</a>
               </div>
             </div>
           </article>
-          
+
           <article class="col-12 col-md-3 col-lg-3 my-3">
             <div class="card h-100">
               <div class="card-header">
@@ -360,13 +426,15 @@
                   <li>Antiinflamatorio natural</li>
                 </ul>
               </div>
-              <div class="card-footer d-flex justify-content-between align-items-center">
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
                 <p>Precio: $800</p>
                 <a href="#" class="btn btn-primary">Comprar</a>
               </div>
             </div>
           </article>
-          
+
           <article class="col-12 col-md-3 col-lg-3 my-3">
             <div class="card h-100">
               <div class="card-header">
@@ -385,13 +453,15 @@
                   <li>Diurético natural</li>
                 </ul>
               </div>
-              <div class="card-footer d-flex justify-content-between align-items-center">
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
                 <p>Precio: $900</p>
                 <a href="#" class="btn btn-primary">Comprar</a>
               </div>
             </div>
           </article>
-          
+
           <article class="col-12 col-md-3 col-lg-3 my-3">
             <div class="card h-100">
               <div class="card-header">
@@ -410,13 +480,15 @@
                   <li>Relajante muscular</li>
                 </ul>
               </div>
-              <div class="card-footer d-flex justify-content-between align-items-center">
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
                 <p>Precio: $1.500</p>
                 <a href="#" class="btn btn-primary">Comprar</a>
               </div>
             </div>
           </article>
-          
+
           <article class="col-12 col-md-3 col-lg-3 my-3">
             <div class="card h-100">
               <div class="card-header">
@@ -435,7 +507,9 @@
                   <li>Mejora la digestión</li>
                 </ul>
               </div>
-              <div class="card-footer d-flex justify-content-between align-items-center">
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
                 <p>Precio: $1.100</p>
                 <a href="#" class="btn btn-primary">Comprar</a>
               </div>
@@ -460,13 +534,15 @@
               <div class="card-body">
                 <h5 class="card-title">Afeitadora Venus</h5>
               </div>
-              <div class="card-footer d-flex justify-content-between align-items-center">
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
                 <p class="mb-0">$4.775</p>
                 <a href="#" class="btn btn-primary">Comprar</a>
               </div>
             </div>
           </article>
-          
+
           <article class="col-12 col-md-3 col-lg-3 my-2">
             <div class="card h-100">
               <div class="card-header">
@@ -480,13 +556,15 @@
               <div class="card-body">
                 <h5 class="card-title">Crema Anti-Estrías</h5>
               </div>
-              <div class="card-footer d-flex justify-content-between align-items-center">
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
                 <p class="mb-0">$8.750</p>
                 <a href="#" class="btn btn-primary">Comprar</a>
               </div>
             </div>
           </article>
-          
+
           <article class="col-12 col-md-3 col-lg-3 my-2">
             <div class="card h-100">
               <div class="card-header">
@@ -500,13 +578,15 @@
               <div class="card-body">
                 <h5 class="card-title">Bandas Depilatorias</h5>
               </div>
-              <div class="card-footer d-flex justify-content-between align-items-center">
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
                 <p class="mb-0">$3.950</p>
                 <a href="#" class="btn btn-primary">Comprar</a>
               </div>
             </div>
           </article>
-          
+
           <article class="col-12 col-md-3 col-lg-3 my-2">
             <div class="card h-100">
               <div class="card-header">
@@ -520,13 +600,15 @@
               <div class="card-body">
                 <h5 class="card-title">Cera Depilatoria Depimiel</h5>
               </div>
-              <div class="card-footer d-flex justify-content-between align-items-center">
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
                 <p class="mb-0">$4.815</p>
                 <a href="#" class="btn btn-primary">Comprar</a>
               </div>
             </div>
           </article>
-          
+
           <article class="col-12 col-md-3 col-lg-3 my-2">
             <div class="card h-100">
               <div class="card-header">
@@ -540,13 +622,15 @@
               <div class="card-body">
                 <h5 class="card-title">Toallitas Desmaquillantes Nivea</h5>
               </div>
-              <div class="card-footer d-flex justify-content-between align-items-center">
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
                 <p class="mb-0">$2.294</p>
                 <a href="#" class="btn btn-primary">Comprar</a>
               </div>
             </div>
           </article>
-          
+
           <article class="col-12 col-md-3 col-lg-3 my-2">
             <div class="card h-100">
               <div class="card-header">
@@ -560,13 +644,15 @@
               <div class="card-body">
                 <h5 class="card-title">Jabón Íntimo Evagina</h5>
               </div>
-              <div class="card-footer d-flex justify-content-between align-items-center">
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
                 <p class="mb-0">$5.297</p>
                 <a href="#" class="btn btn-primary">Comprar</a>
               </div>
             </div>
           </article>
-          
+
           <article class="col-12 col-md-3 col-lg-3 my-2">
             <div class="card h-100">
               <div class="card-header">
@@ -580,13 +666,15 @@
               <div class="card-body">
                 <h5 class="card-title">Tampones Ladysoft</h5>
               </div>
-              <div class="card-footer d-flex justify-content-between align-items-center">
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
                 <p class="mb-0">$2.200</p>
                 <a href="#" class="btn btn-primary">Comprar</a>
               </div>
             </div>
           </article>
-          
+
           <article class="col-12 col-md-3 col-lg-3 my-2">
             <div class="card h-100">
               <div class="card-header">
@@ -600,7 +688,9 @@
               <div class="card-body">
                 <h5 class="card-title">Toallas Femeninas Siempre Libre</h5>
               </div>
-              <div class="card-footer d-flex justify-content-between align-items-center">
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
                 <p class="mb-0">$4.850</p>
                 <a href="#" class="btn btn-primary">Comprar</a>
               </div>
@@ -611,172 +701,268 @@
               <div class="card-header">
                 <h5>Cuidado Íntimo</h5>
               </div>
-              <img src="./img/cuidado de la mujer/tampax.webp" class="card-img-top img-fluid w-100 h-100" alt="Tampones Tampax" />
+              <img
+                src="./img/cuidado de la mujer/tampax.webp"
+                class="card-img-top img-fluid w-100 h-100"
+                alt="Tampones Tampax"
+              />
               <div class="card-body">
                 <h5 class="card-title">Tampones Tampax</h5>
               </div>
-              <div class="card-footer d-flex justify-content-between align-items-center">
-                 <p class="mb-0">$4.850</p>
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
+                <p class="mb-0">$4.850</p>
                 <a href="#" class="btn btn-primary">Comprar</a>
               </div>
             </div>
           </article>
-          
+
           <article class="col-12 col-md-3 col-lg-3 my-2">
             <div class="card h-100">
               <div class="card-header">
                 <h5>Cuidado Íntimo</h5>
               </div>
-              <img src="./img/cuidado de la mujer/tamponesOB.webp" class="card-img-top img-fluid w-100 h-100" alt="Tampones OB" />
+              <img
+                src="./img/cuidado de la mujer/tamponesOB.webp"
+                class="card-img-top img-fluid w-100 h-100"
+                alt="Tampones OB"
+              />
               <div class="card-body">
                 <h5 class="card-title">Tampones OB</h5>
               </div>
-              <div class="card-footer d-flex justify-content-between align-items-center">
-                 <p class="mb-0">$4.850</p>
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
+                <p class="mb-0">$4.850</p>
                 <a href="#" class="btn btn-primary">Comprar</a>
               </div>
             </div>
           </article>
-          
+
           <article class="col-12 col-md-3 col-lg-3 my-2">
             <div class="card h-100">
               <div class="card-header">
                 <h5>Cuidado Íntimo</h5>
               </div>
-              <img src="./img/cuidado de la mujer/toallitasladydoft.webp" class="card-img-top img-fluid w-100 h-100" alt="Toallitas Femeninas Ladysoft" />
+              <img
+                src="./img/cuidado de la mujer/toallitasladydoft.webp"
+                class="card-img-top img-fluid w-100 h-100"
+                alt="Toallitas Femeninas Ladysoft"
+              />
               <div class="card-body">
                 <h5 class="card-title">Toallitas Femeninas Ladysoft</h5>
               </div>
-              <div class="card-footer d-flex justify-content-between align-items-center">
-                 <p class="mb-0">$4.850</p>
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
+                <p class="mb-0">$4.850</p>
                 <a href="#" class="btn btn-primary">Comprar</a>
               </div>
             </div>
           </article>
-          
         </div>
       </section>
-<section class="container">
-  <h2 class="h2">perfumeria</h2>
-<div class="row">
-  <article class="col-12 col-md-4 col-lg-3 my-2">
-    <div class="card h-100">
-      <div class="card-header">
-        <h5>Cuidado de la piel</h5>
-      </div>
-      <img src="./img/perfumeria/aveno.jpg" class="card-img-top img-fluid w-100 h-100" alt="Crema Aveno" />
-      <div class="card-body">
-        <h5 class="card-title">Crema Hidratante Aveno</h5>
-      </div>
-      <div class="card-footer d-flex justify-content-between align-items-center">
-        <p class="mb-0">$5.500</p>
-        <a href="#" class="btn btn-primary">Comprar</a>
-      </div>
-    </div>
-  </article>
-  
-  <article class="col-12 col-md-4 col-lg-3 my-2">
-    <div class="card h-100">
-      <div class="card-header">
-        <h5>Shampoo</h5>
-      </div>
-      <img src="./img/perfumeria/champudove.webp" class="card-img-top img-fluid w-100 h-100" alt="Shampoo Dove" />
-      <div class="card-body">
-        <h5 class="card-title">Shampoo Dove Reparador 400ml</h5>
-      </div>
-      <div class="card-footer d-flex justify-content-between align-items-center">
-        <p class="mb-0">$3.200</p>
-        <a href="#" class="btn btn-primary">Comprar</a>
-      </div>
-    </div>
-  </article>
-  
-  <article class="col-12 col-md-4 col-lg-3 my-2">
-    <div class="card h-100">
-      <div class="card-header">
-        <h5>Perfume</h5>
-      </div>
-      <img src="./img/perfumeria/chanel.jpg" class="card-img-top img-fluid w-100 h-100" alt="Perfume Chanel" />
-      <div class="card-body">
-        <h5 class="card-title">Perfume Chanel Coco Mademoiselle</h5>
-      </div>
-      <div class="card-footer d-flex justify-content-between align-items-center">
-        <p class="mb-0">$85.000</p>
-        <a href="#" class="btn btn-primary">Comprar</a>
-      </div>
-    </div>
-  </article>
-  
-  <article class="col-12 col-md-4 col-lg-3 my-2">
-    <div class="card h-100">
-      <div class="card-header">
-        <h5>Cuidado facial</h5>
-      </div>
-      <img src="./img/perfumeria/dermaglos.jpg" class="card-img-top img-fluid w-100 h-100" alt="Crema Dermaglós" />
-      <div class="card-body">
-        <h5 class="card-title">Crema Hidratante Dermaglós</h5>
-      </div>
-      <div class="card-footer d-flex justify-content-between align-items-center">
-        <p class="mb-0">$4.800</p>
-        <a href="#" class="btn btn-primary">Comprar</a>
-      </div>
-    </div>
-  </article>
-  
-  <article class="col-12 col-md-4 col-lg-3 my-2">
-    <div class="card h-100">
-      <div class="card-header">
-        <h5>Protección solar</h5>
-      </div>
-      <img src="./img/perfumeria/eucerinsolar.gif" class="card-img-top img-fluid w-100 h-100" alt="Protector solar Eucerin" />
-      <div class="card-body">
-        <h5 class="card-title">Protector Solar Eucerin FPS 50</h5>
-      </div>
-      <div class="card-footer d-flex justify-content-between align-items-center">
-        <p class="mb-0">$7.200</p>
-        <a href="#" class="btn btn-primary">Comprar</a>
-      </div>
-    </div>
-  </article>
-  
-  <article class="col-12 col-md-4 col-lg-3 my-2">
-    <div class="card h-100">
-      <div class="card-header">
-        <h5>Jabón</h5>
-      </div>
-      <img src="./img/perfumeria/jabondove.webp" class="card-img-top img-fluid w-100 h-100" alt="Jabón Dove" />
-      <div class="card-body">
-        <h5 class="card-title">Jabón Dove Original 135g</h5>
-      </div>
-      <div class="card-footer d-flex justify-content-between align-items-center">
-        <p class="mb-0">$1.200</p>
-        <a href="#" class="btn btn-primary">Comprar</a>
-      </div>
-    </div>
-  </article>
-  
-  <article class="col-12 col-md-4 col-lg-3 my-2">
-    <div class="card h-100">
-      <div class="card-header">
-        <h5>Cuidado facial</h5>
-      </div>
-      <img src="./img/perfumeria/rosasnivea.jpg" class="card-img-top img-fluid w-100 h-100" alt="Crema Nivea Roses" />
-      <div class="card-body">
-        <h5 class="card-title">Crema Hidratante Nivea Roses 50ml</h5>
-      </div>
-      <div class="card-footer d-flex justify-content-between align-items-center">
-        <p class="mb-0">$3.800</p>
-        <a href="#" class="btn btn-primary">Comprar</a>
-      </div>
-    </div>
-  </article>
-  
-</div>
-</section>
+      <section class="container">
+        <h2 class="h2">perfumeria</h2>
+        <div class="row">
+          <article class="col-12 col-md-4 col-lg-3 my-2">
+            <div class="card h-100">
+              <div class="card-header">
+                <h5>Cuidado de la piel</h5>
+              </div>
+              <img
+                src="./img/perfumeria/aveno.jpg"
+                class="card-img-top img-fluid w-100 h-100"
+                alt="Crema Aveno"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Crema Hidratante Aveno</h5>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
+                <p class="mb-0">$5.500</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </article>
 
+          <article class="col-12 col-md-4 col-lg-3 my-2">
+            <div class="card h-100">
+              <div class="card-header">
+                <h5>Shampoo</h5>
+              </div>
+              <img
+                src="./img/perfumeria/champudove.webp"
+                class="card-img-top img-fluid w-100 h-100"
+                alt="Shampoo Dove"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Shampoo Dove Reparador 400ml</h5>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
+                <p class="mb-0">$3.200</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-4 col-lg-3 my-2">
+            <div class="card h-100">
+              <div class="card-header">
+                <h5>Perfume</h5>
+              </div>
+              <img
+                src="./img/perfumeria/chanel.jpg"
+                class="card-img-top img-fluid w-100 h-100"
+                alt="Perfume Chanel"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Perfume Chanel Coco Mademoiselle</h5>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
+                <p class="mb-0">$85.000</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-4 col-lg-3 my-2">
+            <div class="card h-100">
+              <div class="card-header">
+                <h5>Cuidado facial</h5>
+              </div>
+              <img
+                src="./img/perfumeria/dermaglos.jpg"
+                class="card-img-top img-fluid w-100 h-100"
+                alt="Crema Dermaglós"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Crema Hidratante Dermaglós</h5>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
+                <p class="mb-0">$4.800</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-4 col-lg-3 my-2">
+            <div class="card h-100">
+              <div class="card-header">
+                <h5>Protección solar</h5>
+              </div>
+              <img
+                src="./img/perfumeria/eucerinsolar.gif"
+                class="card-img-top img-fluid w-100 h-100"
+                alt="Protector solar Eucerin"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Protector Solar Eucerin FPS 50</h5>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
+                <p class="mb-0">$7.200</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-4 col-lg-3 my-2">
+            <div class="card h-100">
+              <div class="card-header">
+                <h5>Jabón</h5>
+              </div>
+              <img
+                src="./img/perfumeria/jabondove.webp"
+                class="card-img-top img-fluid w-100 h-100"
+                alt="Jabón Dove"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Jabón Dove Original 135g</h5>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
+                <p class="mb-0">$1.200</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-4 col-lg-3 my-2">
+            <div class="card h-100">
+              <div class="card-header">
+                <h5>Cuidado facial</h5>
+              </div>
+              <img
+                src="./img/perfumeria/rosasnivea.jpg"
+                class="card-img-top img-fluid w-100 h-100"
+                alt="Crema Nivea Roses"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Crema Hidratante Nivea Roses 50ml</h5>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
+                <p class="mb-0">$3.800</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
     </main>
-
-    <footer></footer>
+    <footer class="border border-dark">
+      <section class="container my-3">
+        <div class="row h-100">
+          <article
+            class="col-12 col-md-4 col-lg-4 d-flex flex-column flex-md-row text-md-start align-items-center align-items-md-start text-center text-md-start"
+          >
+            <i class="bi bi-plus-square-fill fs-1"></i>
+            <h3 class="ms-2 mt-2">HerboFarma</h3>
+          </article>
+          <article class="col-12 col-md-4 text-center">
+            <h5>Navegación</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-black text-decoration-none"
+                  >Sobre nosotros</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-black text-decoration-none"
+                  >Productos</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-black text-decoration-none"
+                  >Categorías</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-black text-decoration-none">Contacto</a>
+              </li>
+            </ul>
+          </article>
+          <article class="col-12 col-md-4 text-center gap-2">
+            <h5>Nuestras Redes:</h5>
+            <i class="bi bi-instagram fs-3 mx-2"></i>
+            <i class="bi bi-facebook fs-3"></i>
+            <i class="bi bi-twitter fs-3 mx-2"></i>
+          </article>
+        </div>
+      </section>
+    </footer>
     <script src="./js/bootstrap.min.js"></script>
   </body>
 </html>
