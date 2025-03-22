@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css" />
+    <title>Registrarse</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-success">
+        <div class="container-fluid">
+          <i class="bi bi-plus-square-fill fs-1"></i>
+          <a class="navbar-brand ms-2" href="../index.html">HerboFarma</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link mx-1"
+                  aria-current="page"
+                  href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Categoria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link me-3" href="#">Acerca de Nosotros</a>
+              </li>
+              <li class="nav-item d-flex align-items-center">
+                <i class="bi bi-person-circle fs-5"></i>
+                <a class="nav-link me-3" href="#">Iniciar sesion</a>
+              </li>
+            </ul>
+            <a href="" class="nav-link me-2">
+              <i class="bi bi-cart4 fs-5"></i>
+            </a>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Buscar..."
+                aria-label="Search"
+              />
+              <button class="btn btn-light" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div></div>
+      <section class="container mt-2 w-50">
+        <h1 class="text-center">Registrate</h1>
+        <form action="">
+          <div class="mb-3 d-flex flex-column align-items-center my-5">
+            <label for="Nombre" class="form-label w-75 ps-2"
+              >Nombre Completo*</label
+            >
+            <input
+              type="text"
+              class="form-control w-75"
+              id="Nombre"
+              placeholder="Juan Perez"
+              required
+              minlength="3"
+              maxlength="50"
+            />
+            <label for="user" class="form-label w-75 ps-2 pt-2">Usuario</label>
+            <input
+              type="text"
+              class="form-control w-75"
+              id="user"
+              placeholder="Jperez123"
+              required
+              minlength="6"
+              maxlength="30"
+            />
+            <label for="gmail" class="form-label w-75 ps-2 pt-2"
+              >Correo Electronico*</label
+            >
+            <input
+              type="email"
+              class="form-control w-75"
+              id="gmail"
+              placeholder="JuanPerez@gmail.com"
+              required
+              minlength="10"
+              maxlength="50"
+            />
+            <label for="celu" class="form-label w-75 ps-2 pt-2"
+              >Telefono*</label
+            >
+            <input
+              type="tel"
+              class="form-control w-75"
+              id="celu"
+              placeholder="(+54) 9 381 1234 5678"
+              required
+              inputmode="numeric"
+              pattern="[0-9]+"
+              minlength="9"
+              maxlength="15"
+            />
+            <label for="domi" class="form-label w-75 ps-2 pt-2"
+              >Domicilio*</label
+            >
+            <input
+              type="text"
+              class="form-control w-75"
+              id="domi"
+              placeholder="Gral. José María Paz 576"
+              minlength="10"
+              maxlength="50"
+            />
+            <label for="codigo" class="form-label w-75 ps-2 pt-2"
+              >Codigo Postal*</label
+            >
+            <input
+              type="number"
+              class="form-control w-75"
+              id="codigo"
+              placeholder="4000"
+              required
+              inputmode="numeric"
+              pattern="[0-9]+"
+              minlength="4"
+              maxlength="5"
+            />
+            <label for="pass" class="form-label w-75 ps-2 pt-2"
+              >Contraseña*</label
+            >
+            <input
+              type="password"
+              class="form-control w-75"
+              id="pass"
+              placeholder="********"
+              required
+            />
+            <button type="submit" class="btn btn-secondary mt-2">
+              Registrarse
+            </button>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="border border-dark">
+      <section class="container py- my-3">
+        <div class="row h-100">
+          <article
+            class="col-12 col-md-4 col-lg-4 d-flex flex-column flex-md-row text-md-start align-items-center align-items-md-start text-center text-md-start"
+          >
+            <i class="bi bi-plus-circle-fill fs-1"></i>
+            <h3 class="ms-2 mt-2">HerboFarma</h3>
+          </article>
+          <article class="col-12 col-md-4 text-center">
+            <h5>Navegación</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-black text-decoration-none"
+                  >Sobre nosotros</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-black text-decoration-none"
+                  >Productos</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-black text-decoration-none"
+                  >Categorías</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-black text-decoration-none">Contacto</a>
+              </li>
+            </ul>
+          </article>
+          <article class="col-12 col-md-4 text-center gap-2">
+            <h5>Nuestras Redes:</h5>
+            <i class="bi bi-instagram fs-3 mx-2"></i>
+            <i class="bi bi-facebook fs-3"></i>
+            <i class="bi bi-twitter fs-3 mx-2"></i>
+          </article>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
