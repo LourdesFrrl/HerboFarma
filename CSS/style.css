@@ -68,3 +68,36 @@ width: 500px;
 height: 500px;
 object-fit: cover;
 }
+
+.navbar {
+  background-color: #4781b1;
+}
+
+footer {
+  background-color: #4781b1;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.link-comun {
+  padding-top: 16px !important;
+}
+
+.link-sesion {
+  padding-top: 9px !important;
+}
+
+.nav-link:hover,footer li a:hover , i:hover {
+  color: black !important;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.navbar-toggler:focus {
+  border-color: #050b58 !important; 
+  box-shadow: 0 0 0 0.1rem rgba(0, 7, 71, 0.596) !important;
+}
