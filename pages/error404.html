@@ -17,52 +17,38 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-success">
-        <div class="container-fluid">
-          <i class="bi bi-plus-square-fill fs-1"></i>
-          <a class="navbar-brand ms-2" href="index.html">HerboFarma</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+      <nav class="navbar navbar-expand-lg fw-bold">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html"><img src="../img/logoHerboFarma(1).webp" alt="Logo de la farmacia" class="logo-herbofarma-nav"></a>
+          <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pe-3">
               <li class="nav-item">
-                <a class="nav-link mx-1" aria-current="page" href="index.html"
-                  >Inicio</a
-                >
+                <a class="nav-link link-comun" href="#">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Categoria</a>
+                <a class="nav-link link-comun" href="#">Nosotros</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link link-comun" href="#">Contacto</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link link-sesion dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="bi bi-person-circle fs-4 me-1"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Iniciar Sesion</a></li>
+                  <li><a class="dropdown-item" href="#">Registrarse</a></li>
+                </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link me-3" href="#">Acerca de Nosotros</a>
-              </li>
-              <li class="nav-item d-flex align-items-center">
-                <i class="bi bi-person-circle fs-5"></i>
-                <a class="nav-link me-3" href="#">Iniciar sesion</a>
+                <a class="nav-link" href="#"><i class="bi bi-bag-plus-fill fs-4"></i></a>
               </li>
             </ul>
-            <a href="" class="nav-link me-2">
-              <i class="bi bi-cart4 fs-5"></i>
-            </a>
             <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Buscar..."
-                aria-label="Search"
-              />
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
               <button class="btn btn-light" type="submit">Buscar</button>
             </form>
           </div>
@@ -83,47 +69,46 @@
         >
       </div>
     </main>
-    <footer class="border border-dark">
-      <section class="container my-3">
+    <footer class=" text-light fw-light">
+      <section class="container pt-4 pb-2">
         <div class="row h-100">
-          <article
-            class="col-12 col-md-4 col-lg-4 d-flex flex-column flex-md-row text-md-start align-items-center align-items-md-start text-center text-md-start"
-          >
-            <i class="bi bi-plus-square-fill fs-1"></i>
-            <h3 class="ms-2 mt-2">HerboFarma</h3>
+          <article class="col-12 col-md-3 col-lg-3">
+            <div class="d-flex flex-row justify-content-center py-4">
+              <a class="navbar-brand" href="../index.html"><img src="../img/logoHerboFarma(1).webp" alt="Logo de la farmacia" class="logo-herbofarma"></a>
+            </div>
           </article>
-          <article class="col-12 col-md-4 text-center">
-            <h5>Navegación</h5>
+
+          <article class="col-12 col-md-3 col-lg-3 text-center">
+            <h5 class="text-dark text-decoration-underline">Información:</h5>
             <ul class="list-unstyled">
               <li>
-                <a href="#" class="text-black text-decoration-none"
-                  >Sobre nosotros</a
-                >
+                <a href="#" class="text-light text-decoration-none">Sobre nosotros</a>
               </li>
               <li>
-                <a href="#" class="text-black text-decoration-none"
-                  >Productos</a
-                >
+                <a href="#" class="text-light text-decoration-none">Preguntas Frecuentes</a>
               </li>
               <li>
-                <a href="#" class="text-black text-decoration-none"
-                  >Categorías</a
-                >
-              </li>
-              <li>
-                <a href="#" class="text-black text-decoration-none">Contacto</a>
+                <a href="#" class="text-light text-decoration-none">¿Quieres trabajar con nosotros?</a>
               </li>
             </ul>
           </article>
-          <article class="col-12 col-md-4 text-center gap-2">
-            <h5>Nuestras Redes:</h5>
+
+          <article class="col-12 col-md-3 col-lg-3 text-center">
+            <div class="d-flex flex-row justify-content-center pb-4">
+              <a href="https://guiadetramites.tucuman.gob.ar/organismo/7358/direccion-general-de-fiscalizacion-sanitaria.html"><img src="../img/siprosa-footer.png" alt="logo siprosa" class="logos-legales"></a>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-3 col-lg-3 text-center gap-2 pb-3">
+            <h5 class="text-dark text-decoration-underline">Nuestras redes:</h5>
             <i class="bi bi-instagram fs-3 mx-2"></i>
             <i class="bi bi-facebook fs-3"></i>
             <i class="bi bi-twitter fs-3 mx-2"></i>
           </article>
+
         </div>
       </section>
     </footer>
-    <script src="./js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
