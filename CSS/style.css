@@ -1,6 +1,56 @@
 /* ----- Detalles de Producto ----- */
 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
 .foto-usuario-comentario {
   width: 50px;
   height: 50px;
+}
+
+.navbar {
+  background-color: #6B8E23;
+}
+
+footer {
+  background-color: #6B8E23;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.link-comun {
+  padding-top: 13px !important;
+}
+
+.accordion-button:focus, .form-control:focus {
+  border-color: #28a745 !important; /* Verde Bootstrap (éxito) */
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25) !important; /* Sombra verde */
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #05691b !important; 
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 70, 0.473) !important; /* Sombra verde */
+  color: white !important;
+}
+
+.nav-paginacion {
+  --bs-breadcrumb-divider: '>';
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: #8c8c8c;
+}
+
+.imagen-detale-prod {
+  object-fit: cover;
+  height: 100%;
 }
