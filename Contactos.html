@@ -78,55 +78,72 @@
       </nav>
     </header>
     <main class="bg-light">
-      <section class="bg-primary-subtle py-4">
+      <section class="py-4">
         <h1 class="marca text-center mb-0">CONTACTANOS</h1>
         <p class="fs-5 text-center">Para comunicarte con nosotros completa el siguiente formulario</p>
       </section>
-      <section class="container my-3">
+      <section class="container py-3">
         <div class="row">
           <article class="col-12 col-md-6 mb-3">
-            <form>
-              <div class="mb-3">
-                <label for="nombre" class="form-label"
-                  >Nombre y Apellido *</label
-                >
-                <input
-                  type="text"
-                  class="form-control"
-                  id="nombre"
-                  placeholder="Juan Perez"
-                />
+            <form class="bg-white rounded-3 p-4 border">
+              <div class="justify-content-center">
+                <div class="mb-3">
+                  <h3 class="text-center mt-3 mb-4">Formulario de Contacto</h3>
+                  <label for="nombre" class="form-label"
+                    >Nombre y Apellido *</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control w-75"
+                    id="nombre"
+                    placeholder="Juan Perez"
+                    required
+                    minlength="5"
+                    maxlength="100"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email *</label>
+                  <input
+                    type="email"
+                    class="form-control w-75"
+                    id="email"
+                    placeholder="Juanperez@ejemplo.com"
+                    required
+                    minlength="10"
+                    maxlength="100"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="telefono" class="form-label">Telefono *</label>
+                  <input
+                    type="tel"
+                    class="form-control w-75"
+                    id="telefono"
+                    placeholder="(+54) 381-2385131"
+                    required
+                    min="10"
+                    max="10"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label class="form-label" for="consulta"
+                    >Ingrese su consulta *</label
+                  >
+                  <textarea
+                    name="consulta"
+                    id="consulta"
+                    class="form-control w-75"
+                    placeholder="Ingrese aqui su consilta..."
+                    required
+                    minlength="5"
+                    maxlength="300"  
+                    rows="3"              
+                  ></textarea>
+  
+                </div>
+               <div class="d-flex justify-content-center"> <button type="submit" class="btn btn-primary w-25">Enviar</button></div>
               </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email *</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="email"
-                  placeholder="Juanperez@ejemplo.com"
-                />
-              </div>
-              <div class="mb-3">
-                <label for="telefono" class="form-label">Telefono *</label>
-                <input
-                  type="tel"
-                  class="form-control"
-                  id="telefono"
-                  placeholder="(+54) 381-2385131"
-                />
-              </div>
-              <div class="mb-3">
-                <label class="form-label" for="consulta"
-                  >Ingrese su consulta *</label
-                >
-                <textarea
-                  name="consulta"
-                  id="consulta"
-                  class="w-100 form-control"
-                  placeholder="Ingrese aqui su consilta..."
-                ></textarea>
-              </div>
-              <button type="submit" class="btn btn-success">Submit</button>
             </form>
           </article>
           <article class="col-12 col-md-6 mb-3">
