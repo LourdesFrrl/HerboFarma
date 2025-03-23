@@ -101,3 +101,45 @@ footer {
   border-color: #050b58 !important; 
   box-shadow: 0 0 0 0.1rem rgba(0, 7, 71, 0.596) !important;
 }
+.logo-herbofarma {
+  object-fit: cover;
+  width: 100%;
+}
+
+.logo-herbofarma-nav {
+  object-fit: cover;
+  width: 100%;
+  height: 45px;
+}
+
+.logos-legales {
+  object-fit: cover;
+  width: 50%;
+  border-radius: 15px;
+}
+
+.team-member {
+    text-align: center;
+  }
+  .team-member img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    background: #ddd;
+  }
+  .team-member h5 {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .team-member p {
+    color: gray;
+    margin-bottom: 0;
+  }
+  .custom-img {
+    max-width: 100%;
+    border-radius: 10px;}
+
+    img{
+      object-fit: contain;
+    }
