@@ -1,6 +1,15 @@
 # 🏥 Página Web para Farmacia
 
-Este repositorio contiene el código fuente de una página web diseñada para una farmacia. La página fue desarrollada utilizando las últimas versiones de HTML, CSS y Bootstrap para garantizar un diseño moderno, responsivo y funcional.
+Este repositorio contiene el código fuente de la página web diseñada para la farmacia HerboFarma. La página fue desarrollada utilizando las últimas versiones de HTML, CSS y Bootstrap para garantizar un diseño moderno, responsivo y funcional.
+
+## ✍️ Contenido de la pagina 
+- Pagina principal con secciones de promociones y novedades.
+- Pagina principal con secciones de productos.
+- Pagina de carrito de compras.
+- Pagina "sobre nosotros" en la que se detalla informacion sobre el equipo de programacion.
+- Paginas de detalle de categorias (para 2 categorias de la secciones de productos).
+- Pagina de detalle de productos (para dos productos de las secciones de productos).
+- Paginas de registro y de inicio de sesion.
 
 ## 🚀 Tecnologías Utilizadas
 - **HTML5**: Estructura del sitio web.
@@ -9,33 +18,45 @@ Este repositorio contiene el código fuente de una página web diseñada para un
 
 ## 📂 Estructura del Proyecto
 
-``` 📁 proyecto-farmacia/ 
-├── 📁 css/ # Archivos de estilos personalizados 
-├── 📁 js/ # Scripts y funcionalidades dinámicas 
-├── 📁 img/ # Imágenes y recursos gráficos 
-├── index.html # Página principal 
-├── about.html # Página "Sobre nosotros" 
-├── contact.html # Página de contacto 
-└── README.md # Documentación del proyecto.
-```
+## 📂 Estructura del Proyecto
+
+La siguiente es la estructura de archivos y carpetas del proyecto:
+
+📁 proyecto-farmacia/
+├── 📁 css/          # Archivos de estilos personalizados  
+├── 📁 js/           # Scripts y funcionalidades dinámicas  
+├── 📁 img/          # Imágenes y recursos gráficos  
+├── 📄 index.html    # Página principal  
+├── 📄 about.html    # Página "Sobre nosotros"  
+├── 📄 contact.html  # Página de contacto  
+└── 📄 README.md     # Documentación del proyecto  
+
+
 ## 📥 Clonar el Repositorio
 Para clonar este proyecto en tu máquina local, ejecuta el siguiente comando en tu terminal:
 
-`git clone <URL_DEL_REPOSITORIO>`
+```git clone https://github.com/LourdesFrrl/HerboFarma.git```
 
 ## 📌 Instalación y Uso
-Clonar el repositorio con el comando anterior.
-
-Abrir el archivo index.html en tu navegador.
-
-(Opcional) Si deseas realizar modificaciones, puedes editar los archivos en un editor de código como VS Code o Sublime Text.
+1. Clonar el repositorio con el comando anterior.
+1. Abrir el archivo index.html en tu navegador.
+1. (Opcional) Si deseas realizar modificaciones, puedes editar los archivos en un editor de código como VS Code.
 
 ## 🔗 Demo y Enlace al Proyecto
 Puedes ver la página en acción en el siguiente enlace:
-Demo del Proyecto
+[Demo del Proyecto](https://herbofarma.netlify.app/)
 
 ## 📞 Contacto
 Si tienes preguntas o sugerencias, no dudes en contactarnos.
 
-📧 Correo: correo@ejemplo.com
-🌐 Sitio web: www.ejemplo.com
+📧 Correo: academy@rollingcodeschool.com
+
+🌐 Sitio web: universe.rollingcodeschool.com
+
+## Autores
+- Santiago Lacki Sinclair
+- Luis Martin Diaz
+- Ignacio Joaquin Barrojo
+- Agustina Hernandez
+- Maria Lourdes Ferraioli
+
