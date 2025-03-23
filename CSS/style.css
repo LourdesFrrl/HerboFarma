@@ -1,6 +1,6 @@
 /* ----- Detalles de Producto ----- */
 
-body{
+body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -73,6 +73,10 @@ footer {
   height: 100%;
 }
 
+textarea {
+  resize: none !important;
+}
+
 .logo-herbofarma {
   object-fit: cover;
   width: 100%;
@@ -92,45 +96,46 @@ footer {
 
 /* ----- INDEX ----- */
 
-.imgBanner{
+.imgBanner {
     object-fit: cover;
     height: 300px;
 }
 
-.imgPromoCrea{
+.imgPromoCrea {
   transition: 300ms;
 }
 
-.imgPromoCrea:hover{
+.imgPromoCrea:hover {
   box-shadow: 0 0 5px rgb(34, 60, 177);
     
 }
-.fondoCrema{
+
+.fondoCrema {
   background-color: rgb(211, 206, 218);
 }
 
 
-.tiendaOnlineTitulo{
+.tiendaOnlineTitulo {
   color: rgb(138, 126, 149) !important;
   text-shadow: 0px 0px 5px;
 }
 
-.tituloCrea{
+.tituloCrea {
   text-shadow: 0px 0px 5px;
 }
 
-.tituloLab{
+.tituloLab {
   text-shadow: 0px 0px 3px;
   color: rgb(109, 118, 118) !important;
 }
 
-.contenedorCrea{
+.contenedorCrea {
 width: 500px;
 height: 500px;
 object-fit: cover;
 }
 
-.imgFarmacia{
+.imgFarmacia {
   height: 300px;
   object-fit: cover;
 }
@@ -140,7 +145,7 @@ object-fit: cover;
     height: 350px;
   }
 }
-@media (min-width:992px){
+@media (min-width:992px) {
   .imgFarmacia{
     height: 550px;
     object-position: 100% 70%;
