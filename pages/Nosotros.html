@@ -6,17 +6,35 @@
     <title>HerboFarma</title>
     <link rel="stylesheet" href="../CSS/style.css" />
     <link rel="stylesheet" href="../CSS/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="icon" href="../img/favicon-cruz.png" type="image.png" />
     <meta
       content="author"
       description="Santiago Lacki, Maria Lourdes Ferraioli, Agustina Hernandez, Ignacio Barrojo, Luis Martin Diaz"
     />
-    </head>
+  </head>
   <body>
     <header>
       <nav class="navbar navbar-expand-lg fw-bold">
         <div class="container">
-          <a class="navbar-brand" href="./index.html"><img src="../img/logoHerboFarma(1).webp" alt="Logo de la farmacia" class="logo-herbofarma-nav"></a>
-          <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href="../index.html"
+            ><img
+              src="../img/logoHerboFarma(1).webp"
+              alt="Logo de la farmacia"
+              class="logo-herbofarma-nav"
+          /></a>
+          <button
+            class="navbar-toggler bg-light"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -25,27 +43,52 @@
                 <a class="nav-link link-comun" href="../index.html">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link link-comun" href="./Nosotros.html">Nosotros</a>
+                <a class="nav-link link-comun" href="../pages/Nosotros.html"
+                  >Nosotros</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link link-comun" href="./Contactos.html">Contacto</a>
+                <a class="nav-link link-comun" href="../pages/Contactos.html"
+                  >Contacto</a
+                >
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link link-sesion dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a
+                  class="nav-link link-sesion dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
                   <i class="bi bi-person-circle fs-4 me-1"></i>
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Iniciar Sesion</a></li>
-                  <li><a class="dropdown-item" href="./registro.html">Registrarse</a></li>
+                  <li>
+                    <a class="dropdown-item" href="../pages/Login.html"
+                      >Iniciar Sesion</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../pages/registro.html"
+                      >Registrarse</a
+                    >
+                  </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="bi bi-bag-plus-fill fs-4"></i></a>
+                <a class="nav-link" href="../pages/detalleCarrito.html"
+                  ><i class="bi bi-bag-plus-fill fs-4"></i
+                ></a>
               </li>
             </ul>
             <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-              <button class="btn btn-light" type="submit">Buscar</button>
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Buscar"
+                aria-label="Search"
+              />
+              <a class="btn btn-light" href="../pages/error404.html">Buscar</a>
             </form>
           </div>
         </div>
@@ -59,7 +102,9 @@
           <div class="row mb-5">
             <div class="col-lg-6 p-5">
               <div class="pt-5">
-                <h2 class="mb-4 fw-bold text-dark">ACERCA DE NOSOTROS</h2>
+                <h2 class="mb-4 fw-bold marca text-center mb-0 tituloLab">
+                  ACERCA DE NOSOTROS
+                </h2>
                 <p class="text-secondary fs-5 justify-content-center">
                   Somos un equipo de desarrolladores web apasionados por la
                   tecnología y la creatividad.
@@ -84,10 +129,10 @@
         </div>
       </section>
       <section
-        class="text-dark-emphasis bg-success-subtle border-success-subtle py-4 p-3"
+        class="text-dark-emphasis bg-primary-subtle border-primary-subtle py-4 p-3"
       >
         <div class="mt-5">
-          <h2 class="fw-bold text-dark-emphasis row justify-content-center">
+          <h2 class="h2 text-center my-2 text-primary-emphasis tituloCrea">
             TE PRESENTAMOS AL EQUIPO
           </h2>
           <div class="container text-center mt-5">
@@ -97,28 +142,28 @@
                   src="../Img/Barrojo Ignacio.jpg"
                   alt="BarrojoIgnacio Joaquín"
                 />
-                <h6 class="text-secondary">BARROJO IGNACION JOAQUIN</h6>
+                <h6 class="text-dark p-2 my-2">BARROJO IGNACION JOAQUIN</h6>
               </div>
               <div class="col-md-3 team-member">
-                <img src="../Img/Diaz Luis.jpg" alt="Diaz Luis Martin" />
-                <h6 class="text-secondary">DIAZ LUIS MARTIN</h6>
+                <img src="../Img/Diaz Luis.jpeg" alt="Diaz Luis Martin" />
+                <h6 class="text-dark p-2 my-2">DIAZ LUIS MARTIN</h6>
               </div>
             </div>
             <div class="row justify-content-center mt-4">
               <div class="col-md-3 team-member">
                 <img
-                  src="../Img/Ferraioli Lourdes.jpg"
+                  src="../Img/Ferraioli Lourdes.jpeg"
                   alt="Ferraioli Maria Lourdes"
                 />
-                <h6 class="text-secondary">FERRAIOLI MARIA LOURDES</h6>
+                <h6 class="text-dark p-2 my-2">FERRAIOLI MARIA LOURDES</h6>
               </div>
               <div class="col-md-3 team-member">
                 <img src="../Img/Agustina.jpeg" alt="Hernandez Agustina" />
-                <h6 class="text-secondary">HERNANDEZ AGUSTINA</h6>
+                <h6 class="text-dark p-2 my-2">HERNANDEZ AGUSTINA</h6>
               </div>
               <div class="col-md-3 team-member">
                 <img src="../Img/Santiago.jpeg" alt="Lacki Sinclair Santiago" />
-                <h6 class="text-secondary">LACKI SINCLAIR SANTIAGO</h6>
+                <h6 class="text-dark p-2 my-2">LACKI SINCLAIR SANTIAGO</h6>
               </div>
             </div>
           </div>
@@ -138,26 +183,34 @@
               /></a>
             </div>
           </article>
+
           <article class="col-12 col-md-3 col-lg-3 text-center">
             <h5 class="text-dark text-decoration-underline">Información:</h5>
             <ul class="list-unstyled">
               <li>
-                <a href="./Nosotros.html" class="text-light text-decoration-none"
+                <a
+                  href="../pages/Nosotros.html"
+                  class="text-light text-decoration-none"
                   >Sobre nosotros</a
                 >
               </li>
               <li>
-                <a href="./preguntasFrecuentes.html" class="text-light text-decoration-none"
+                <a
+                  href="../pages/preguntasFrecuentes.html"
+                  class="text-light text-decoration-none"
                   >Preguntas Frecuentes</a
                 >
               </li>
               <li>
-                <a href="#" class="text-light text-decoration-none"
+                <a
+                  href="../pages/TrabajaConNosotros.html"
+                  class="text-light text-decoration-none"
                   >¿Quieres trabajar con nosotros?</a
                 >
               </li>
             </ul>
           </article>
+
           <article class="col-12 col-md-3 col-lg-3 text-center">
             <div class="d-flex flex-row justify-content-center pb-4">
               <a
@@ -172,9 +225,21 @@
 
           <article class="col-12 col-md-3 col-lg-3 text-center gap-2 pb-3">
             <h5 class="text-dark text-decoration-underline">Nuestras redes:</h5>
-            <i class="bi bi-instagram fs-3 mx-2"></i>
-            <i class="bi bi-facebook fs-3"></i>
-            <i class="bi bi-twitter fs-3 mx-2"></i>
+            <a
+              href="../pages/error404.html"
+              class="text-light text-decoration-none"
+              ><i class="bi bi-instagram fs-3 mx-2"></i
+            ></a>
+            <a
+              href="../pages/error404.html"
+              class="text-light text-decoration-none"
+              ><i class="bi bi-facebook fs-3"></i
+            ></a>
+            <a
+              href="../pages/error404.html"
+              class="text-light text-decoration-none"
+              ><i class="bi bi-twitter fs-3 mx-2"></i
+            ></a>
           </article>
         </div>
       </section>
