@@ -6,6 +6,11 @@
     <title>HerboFarma</title>
     <link rel="stylesheet" href="../CSS/style.css" />
     <link rel="stylesheet" href="../CSS/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="icon" href="../img/favicon-cruz.png" type="image.png" />
     <meta
       content="author"
       description="Santiago Lacki, Maria Lourdes Ferraioli, Agustina Hernandez, Ignacio Barrojo, Luis Martin Diaz"
@@ -35,13 +40,17 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pe-3">
               <li class="nav-item">
-                <a class="nav-link link-comun" href="#">Inicio</a>
+                <a class="nav-link link-comun" href="../index.html">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link link-comun" href="#">Nosotros</a>
+                <a class="nav-link link-comun" href="../pages/Nosotros.html"
+                  >Nosotros</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link link-comun" href="./Contactos.html">Contacto</a>
+                <a class="nav-link link-comun" href="../pages/Contactos.html"
+                  >Contacto</a
+                >
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -54,12 +63,20 @@
                   <i class="bi bi-person-circle fs-4 me-1"></i>
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Iniciar Sesion</a></li>
-                  <li><a class="dropdown-item" href="#">Registrarse</a></li>
+                  <li>
+                    <a class="dropdown-item" href="../pages/Login.html"
+                      >Iniciar Sesion</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../pages/registro.html"
+                      >Registrarse</a
+                    >
+                  </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"
+                <a class="nav-link" href="../pages/detalleCarrito.html"
                   ><i class="bi bi-bag-plus-fill fs-4"></i
                 ></a>
               </li>
@@ -71,7 +88,7 @@
                 placeholder="Buscar"
                 aria-label="Search"
               />
-              <button class="btn btn-light" type="submit">Buscar</button>
+              <a class="btn btn-light" href="../pages/error404.html">Buscar</a>
             </form>
           </div>
         </div>
@@ -79,8 +96,8 @@
     </header>
     <main class="bg-light">
       <section class="py-4">
-        <h1 class="marca text-center mb-0">CONTACTANOS</h1>
-        <p class="fs-5 text-center">Para comunicarte con nosotros completa el siguiente formulario</p>
+        <h1 class="mb-4 fw-bold marca text-center mb-0 tituloLab">CONTACTANOS</h1>
+        <h2 class="fs-5 text-center text-secondary fs-5 justify-content-center">Para comunicarte con nosotros completa el siguiente formulario</h2>
       </section>
       <section class="container py-3">
         <div class="row">
@@ -176,17 +193,23 @@
             <h5 class="text-dark text-decoration-underline">Información:</h5>
             <ul class="list-unstyled">
               <li>
-                <a href="#" class="text-light text-decoration-none"
+                <a
+                  href="../pages/Nosotros.html"
+                  class="text-light text-decoration-none"
                   >Sobre nosotros</a
                 >
               </li>
               <li>
-                <a href="#" class="text-light text-decoration-none"
+                <a
+                  href="../pages/preguntasFrecuentes.html"
+                  class="text-light text-decoration-none"
                   >Preguntas Frecuentes</a
                 >
               </li>
               <li>
-                <a href="#" class="text-light text-decoration-none"
+                <a
+                  href="../pages/TrabajaConNosotros.html"
+                  class="text-light text-decoration-none"
                   >¿Quieres trabajar con nosotros?</a
                 >
               </li>
@@ -207,9 +230,21 @@
 
           <article class="col-12 col-md-3 col-lg-3 text-center gap-2 pb-3">
             <h5 class="text-dark text-decoration-underline">Nuestras redes:</h5>
-            <i class="bi bi-instagram fs-3 mx-2"></i>
-            <i class="bi bi-facebook fs-3"></i>
-            <i class="bi bi-twitter fs-3 mx-2"></i>
+            <a
+              href="../pages/error404.html"
+              class="text-light text-decoration-none"
+              ><i class="bi bi-instagram fs-3 mx-2"></i
+            ></a>
+            <a
+              href="../pages/error404.html"
+              class="text-light text-decoration-none"
+              ><i class="bi bi-facebook fs-3"></i
+            ></a>
+            <a
+              href="../pages/error404.html"
+              class="text-light text-decoration-none"
+              ><i class="bi bi-twitter fs-3 mx-2"></i
+            ></a>
           </article>
         </div>
       </section>
