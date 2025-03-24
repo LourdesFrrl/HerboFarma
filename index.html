@@ -17,101 +17,993 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-success">
-        <div class="container-fluid">
-          <i class="bi bi-plus-square-fill fs-1 "></i>
-          <a class="navbar-brand ms-2" href="index.html">HerboFarma</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+      <nav class="navbar navbar-expand-lg fw-bold">
+        <div class="container">
+          <a class="navbar-brand" href="./index.html"><img src="../img/logoHerboFarma(1).webp" alt="Logo de la farmacia" class="logo-herbofarma-nav"></a>
+          <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pe-3">
               <li class="nav-item">
-                <a
-                  class="nav-link active mx-1"
-                  aria-current="page"
-                  href="index.html"
-                  >Inicio</a
-                >
+                <a class="nav-link link-comun" href="./index.html">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="#">Categoria</a>
-              </li><li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link link-comun" href="./pages/Nosotros.html">Nosotros</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link me-3" href="#">Acerca de Nosotros</a>
+                <a class="nav-link link-comun" href="./pages/Contactos.html">Contacto</a>
               </li>
-              <li class="nav-item d-flex align-items-center">
-                <i class="bi bi-person-circle fs-5"></i>
-                <a class="nav-link me-3" href="#">Iniciar sesion</a>
+              <li class="nav-item dropdown">
+                <a class="nav-link link-sesion dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="bi bi-person-circle fs-4 me-1"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./pages/login.html">Iniciar Sesion</a></li>
+                  <li><a class="dropdown-item" href="./pages/registro.html">Registrarse</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="bi bi-bag-plus-fill fs-4"></i></a>
               </li>
             </ul>
-            <a href="" class="nav-link me-2">
-              <i class="bi bi-cart4 fs-5"></i>
-            </a>
             <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Buscar..."
-                aria-label="Search"
-              />
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
               <button class="btn btn-light" type="submit">Buscar</button>
             </form>
           </div>
         </div>
       </nav>
     </header>
-    <main></main>
-    <footer class="border border-dark">
-      <section class="container my-3">
-        <div class="row h-100">
-          <article
-            class="col-12 col-md-4 col-lg-4 d-flex flex-column flex-md-row text-md-start align-items-center align-items-md-start text-center text-md-start"
-          >
-            <i class="bi bi-plus-square-fill fs-1"></i>
-            <h3 class="ms-2 mt-2">HerboFarma</h3>
+    <main>
+      <section id="carouselFarmacia" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselFarmacia"
+            data-bs-slide-to="0"
+            class="active bg-light"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            class="bg-light"
+            type="button"
+            data-bs-target="#carouselFarmacia"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            class="bg-light"
+            type="button"
+            data-bs-target="#carouselFarmacia"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./img/promociones/promociondermaglos.jpg"
+              class="d-block w-100 imgFarmacia"
+              alt="banner de descuentos en productos de perfumeria"
+            />
+            <div
+              class="carousel-caption d-none d-md-block text-light bg-dark bg-opacity-50"
+            >
+              <h5>EN NUESTRA FARMACIA</h5>
+              <p>
+                20% de descuento en todos los productos de la linea DERMAGLOS
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./img/promociones/promocionavene.png"
+              class="d-block w-100 imgFarmacia"
+              alt="Banner de promocion de productos avene"
+            />
+            <div
+              class="carousel-caption d-none d-md-block text-light bg-dark bg-opacity-50"
+            >
+              <h5>EN  NUESTRA FARMACIA</h5>
+              <p>
+                50% con la compra de una segunda unidad de la linea solar AVENE              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./img/banner corousel/suplementosbanner.png"
+              class="d-block w-100 imgFarmacia"
+              alt="Nueva linea de suplementos en nuestro laboratorio "
+            />
+            <div
+              class="carousel-caption d-none d-md-block text-light bg-dark bg-opacity-50"
+            >
+              <h5>EN NUESTRO LABORATORIO</h5>
+              <p>
+                Implementamos la elaboracion de suplementos deportivos de alta pureza y calidad farmaceutica!
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselFarmacia"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselFarmacia"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </section>
+
+      <section class="bg-body-secondary p-2 my-2">
+        <div class="container">
+          <h2 class="h1 text-center my-2 text-primary-emphasis tituloCrea">
+            Creatina Farmacéutica de Alta Calidad</h2>
+          <article class="row">
+            <div class="col-12 col-md-6 p-lg-4">
+              <img
+                src="./img/promociones/creatina2.jpg"
+                alt="creatina nuevo producto"
+                class="img-fluid"
+              />
+            </div>
+            <div class="col-12 col-md-6 d-flex flex-column justify-content-evenly">
+              <p>Descubre la diferencia de una
+                <strong>creatina pura y de calidad farmacéutica</strong>,
+                elaborada en laboratorio bajo estrictos estándares de control.
+                Nuestra <strong>creatina de farmacia</strong> es ideal para
+                atletas, deportistas y cualquier persona que busque mejorar su
+                desempeño físico sin comprometer la seguridad ni la calidad.💥🚀
+              </p>
+  
+              <ul>
+                <li><strong>Fórmula pura y segura</strong></li>
+                <li><strong>Absorción eficiente</strong></li>
+                <li><strong>Mayor energía y fuerza muscular</strong></li>
+                <li><strong>Libre de aditivos innecesarios</strong></li>
+              </ul>
+  
+              <p>
+                📍 ¡Disponible en nuestra farmacia! Mejora tu entrenamiento con lo
+                mejor en suplementación deportiva.
+              </p>
+              <a type="button" class="btn btn-primary" href="./pages/error404.html">Mas Informacion</a>
+        </div>
+      </article>
+      </section>
+       
+
+      <section class="bg-secondary.bg-gradient">
+        <div class="container"> 
+          <h2 class="h1 text-center tituloLab">Novedades de nuestro laboratorio</h2>
+          <div class="row">
+            <article class="col-12 col-md-6 col-lg-6 my-2">
+              <div class="d-flex flex-column justify-content-between h-100">
+                <img
+                  src="./img/seccion Novedades index/formulas magistrales.jpg"
+                  alt="formulas magistrales"
+                  class="w-100 imgBanner"
+                />
+                <h3 class="text-center">Formulaciones Magistrales Personalizadas</h3>
+                <p>
+                  Ahora en nuestro laboratorio elaboramos
+                  <strong>fórmulas magistrales</strong> adaptadas a tus
+                  necesidades. Consulta con nosotros y accede a tratamientos
+                  personalizados.
+                </p>
+                <a href="./pages/formulasMagistrales.html" type="button" class="btn btn-secondary">Mas Informacion</a>
+              </div>
+            </article>
+            <article class="col-12 col-md-6 col-lg-6 my-2">
+              <div class="d-flex flex-column justify-content-between h-100">
+                <img
+                  src="./img/seccion Novedades index/suplementos deportivos.jpg"
+                  alt="suplementos deportivos"
+                  class="w-100 imgBanner"
+                />
+                <h3 class="text-center">Suplementos Deportivos</h3>
+                <p>
+                  ¡Novedad en nuestra farmacia! Incorporamos
+                  <strong>suplementos deportivos</strong> de alta calidad para
+                  potenciar tu rendimiento y bienestar
+                </p>
+                <a href="./pages/error404.html" type="button" class="btn btn-secondary">Mas Informacion</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-light my-3 py-2">
+        <div class="container">
+          <h2 class="h1 text-center my-3 tiendaOnlineTitulo">TIENDA ONLINE</h2>
+          <section>
+        <h2 class="h2 text-center my-2">
+          Especialidades medicinales de venta libre
+        </h2>
+
+        <div class="row">
+          <article class="col-12 col-md-4 col-lg-3 my-2">
+            <div class="card h-100">
+              <div class="card-header">
+                <h5 class="card-title">Aerotina</h5>
+              </div>
+              <img
+                src="./img/especialidadesMedicinales/aerotina.jpg"
+                class="card-img-top w-100 h-100 img-fluid"
+                alt="Aerotina"
+              />
+              <div class="card-body">
+                <p class="card-text">Precio: $1.200</p>
+                <a href="error404.html" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
           </article>
-          <article class="col-12 col-md-4 text-center">
-            <h5>Navegación</h5>
+
+          <article class="col-12 col-md-4 col-lg-3 my-2">
+            <div class="card h-100">
+              <div class="card-header">
+                <h5 class="card-title">Buscapina Compuesta</h5>
+              </div>
+              <img
+                src="./img/especialidadesMedicinales/buscapina compuesta.jpg"
+                class="card-img-top w-100 h-100 img-fluid"
+                alt="Buscapina Compuesta"
+              />
+              <div class="card-body">
+                <p class="card-text">Precio: $13.800</p>
+                <a href="error404.html" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-4 col-lg-3 my-2">
+            <div class="card h-100">
+              <div class="card-header">
+                <h5 class="card-title">Buscapina</h5>
+              </div>
+              <img
+                src="./img/especialidadesMedicinales/buscapina.webp"
+                class="card-img-top w-100 h-100"
+                alt="Buscapina"
+              />
+              <div class="card-body">
+                <p class="card-text">Precio: $8.670</p>
+                <a href="error404.html" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-4 col-lg-3 my-2">
+            <div class="card h-100">
+              <div class="card-header">
+                <h5 class="card-title">Fabogesic</h5>
+              </div>
+              <img
+                src="./img/especialidadesMedicinales/fabogesic.png"
+                class="card-img-top w-100 h-100 img-fluid"
+                alt="Fabogesic"
+              />
+              <div class="card-body">
+                <p class="card-text">Precio: $1.500</p>
+                <a href="error404.html" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-4 col-lg-3 my-2">
+            <div class="card h-100">
+              <div class="card-header">
+                <h5 class="card-title">Melatol</h5>
+              </div>
+              <img
+                src="./img/especialidadesMedicinales/melaton.jpg"
+                class="card-img-top w-100 h-100"
+                alt="Melatol"
+              />
+              <div class="card-body">
+                <p class="card-text">Precio: $2.000</p>
+                <a href="error404.html" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-4 col-lg-3 my-2">
+            <div class="card h-100">
+              <div class="card-header">
+                <h5 class="card-title">Motrin</h5>
+              </div>
+              <img
+                src="./img/especialidadesMedicinales/motrin.jpg"
+                class="card-img-top w-100 h-100"
+                alt="Motrin"
+              />
+              <div class="card-body">
+                <p class="card-text">Precio: $1.800</p>
+                <a href="error404.html" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-4 col-lg-3 my-2">
+            <div class="card h-100">
+              <div class="card-header">
+                <h5 class="card-title">Supradyn</h5>
+              </div>
+              <img
+                src="./img/especialidadesMedicinales/supradyn.webp"
+                class="card-img-top w-100 h-100"
+                alt="Supradyn"
+              />
+              <div class="card-body">
+                <p class="card-text">Precio: $3.500</p>
+                <a href="error404.html" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-4 col-lg-3 my-2">
+            <div class="card h-100">
+              <div class="card-header">
+                <h5 class="card-title">Tafirol</h5>
+              </div>
+              <img
+                src="./img/especialidadesMedicinales/tafirol.jpg"
+                class="card-img-top w-100 h-100 img-fluid"
+                alt="Tafirol"
+              />
+              <div class="card-body">
+                <p class="card-text">Precio: $1.200</p>
+                <a href="error404.html" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="d-grid gap-2 col-6 mx-auto">
+          <button class="btn btn-primary mt-2 mb-4" type="button">Ver mas productos</button>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="h2 text-center my-2">Medicamentos herbarios</h2>
+        <div class="row">
+          <article class="col-12 col-md-4 col-lg-3 my-3">
+            <div class="card h-100">
+              <div class="card-header">
+                <h5 class="card-title">Té Verde</h5>
+              </div>
+              <img
+                src="./img/medicamentos herbarios/camellia sinensis te verde 1.jpg"
+                class="card-img-top w-100 h-100 img-fluid"
+                alt="Té Verde"
+              />
+              <div class="card-body">
+                <h6 class="h6"><em>Camellia sinensis</em></h6>
+                <ul>
+                  <li>Antioxidante</li>
+                  <li>Mejora la función cerebral</li>
+                  <li>Ayuda en la pérdida de peso</li>
+                  <li>Reduce el riesgo de enfermedades cardiovasculares</li>
+                </ul>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
+                <p>Precio: $1.000</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-4 col-lg-3 my-3">
+            <div class="card h-100">
+              <div class="card-header">
+                <h5 class="card-title">Eucalipto</h5>
+              </div>
+              <img
+                src="./img/medicamentos herbarios/eucalyptus globulus euclapito.jpg"
+                class="card-img-top w-100 h-100 img-fluid"
+                alt="Eucalipto"
+              />
+              <div class="card-body">
+                <h6 class="h6"><em>Eucalyptus globulus</em></h6>
+                <ul>
+                  <li>Alivia problemas respiratorios</li>
+                  <li>Antiséptico natural</li>
+                  <li>Propiedades antiinflamatorias</li>
+                </ul>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
+                <p>Precio: $1.200</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-4 col-lg-3 my-3">
+            <div class="card h-100">
+              <div class="card-header">
+                <h5 class="card-title">Manzanilla</h5>
+              </div>
+              <img
+                src="./img/medicamentos herbarios/matricaria chamomilla manzanilla.webp"
+                class="card-img-top w-100 h-100 img-fluid"
+                alt="Manzanilla"
+              />
+              <div class="card-body">
+                <h6 class="h6"><em>Matricaria chamomilla</em></h6>
+                <ul>
+                  <li>Calma problemas digestivos</li>
+                  <li>Propiedades relajantes</li>
+                  <li>Antiinflamatorio natural</li>
+                </ul>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
+                <p>Precio: $800</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-4 col-lg-3 my-3">
+            <div class="card h-100">
+              <div class="card-header">
+                <h5 class="card-title">Boldo</h5>
+              </div>
+              <img
+                src="./img/medicamentos herbarios/peumus boldus (boldo).jpg"
+                class="card-img-top w-100 h-100 img-fluid"
+                alt="Boldo"
+              />
+              <div class="card-body">
+                <h6 class="h6"><em>Peumus boldus</em></h6>
+                <ul>
+                  <li>Mejora la digestión</li>
+                  <li>Hepatoprotector</li>
+                  <li>Diurético natural</li>
+                </ul>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
+                <p>Precio: $900</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-4 col-lg-3 my-3">
+            <div class="card h-100">
+              <div class="card-header">
+                <h5 class="card-title">Valeriana</h5>
+              </div>
+              <img
+                src="./img/medicamentos herbarios/valeriana officinalis valeriana.webp"
+                class="card-img-top w-100 h-100 img-fluid"
+                alt="Valeriana"
+              />
+              <div class="card-body">
+                <h6 class="h6"><em>Valeriana officinalis</em></h6>
+                <ul>
+                  <li>Reduce la ansiedad</li>
+                  <li>Mejora la calidad del sueño</li>
+                  <li>Relajante muscular</li>
+                </ul>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
+                <p>Precio: $1.500</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-4 col-lg-3 my-3">
+            <div class="card h-100">
+              <div class="card-header">
+                <h5 class="card-title">Jengibre</h5>
+              </div>
+              <img
+                src="./img/medicamentos herbarios/zingiber officinale jengibre.jpg"
+                class="card-img-top w-100 h-100 img-fluid"
+                alt="Jengibre"
+              />
+              <div class="card-body">
+                <h6 class="h6"><em>Zingiber officinale</em></h6>
+                <ul>
+                  <li>Antiinflamatorio natural</li>
+                  <li>Alivia náuseas</li>
+                  <li>Mejora la digestión</li>
+                </ul>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
+                <p>Precio: $1.100</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="d-grid gap-2 col-6 mx-auto">
+          <button class="btn btn-primary mt-2 mb-4" type="button">Ver mas productos</button>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="h2 text-center my-2">Cuidado de la mujer</h2>
+        <div class="row">
+          <article class="col-12 col-md-4 col-lg-3 my-2">
+            <div class="card h-100">
+              <div class="card-header">
+                <h5>Cuidado Personal</h5>
+              </div>
+              <img
+                src="./img/cuidado de la mujer/afeitar.png"
+                class="card-img-top img-fluid w-100 h-100"
+                alt="Afeitadora Venus"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Afeitadora Venus</h5>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
+                <p class="mb-0">$4.775</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-4 col-lg-3 my-2">
+            <div class="card h-100">
+              <div class="card-header">
+                <h5>Belleza</h5>
+              </div>
+              <img
+                src="./img/cuidado de la mujer/antiEstrias.webp"
+                class="card-img-top img-fluid w-100 h-100"
+                alt="Crema Anti-Estrías"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Crema Anti-Estrías</h5>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
+                <p class="mb-0">$8.750</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-4 col-lg-3 my-2">
+            <div class="card h-100">
+              <div class="card-header">
+                <h5>Cuidado Personal</h5>
+              </div>
+              <img
+                src="./img/cuidado de la mujer/bandasdepilatorias.webp"
+                class="card-img-top img-fluid w-100 h-100"
+                alt="Bandas Depilatorias"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Bandas Depilatorias</h5>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
+                <p class="mb-0">$3.950</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-4 col-lg-3 my-2">
+            <div class="card h-100">
+              <div class="card-header">
+                <h5>Cuidado Personal</h5>
+              </div>
+              <img
+                src="./img/cuidado de la mujer/depimiel.jpg"
+                class="card-img-top img-fluid w-100 h-100"
+                alt="Cera Depilatoria Depimiel"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Cera Depilatoria Depimiel</h5>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
+                <p class="mb-0">$4.815</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-4 col-lg-3 my-2">
+            <div class="card h-100">
+              <div class="card-header">
+                <h5>Belleza</h5>
+              </div>
+              <img
+                src="./img/cuidado de la mujer/desmaquillante.webp"
+                class="card-img-top img-fluid w-100 h-100"
+                alt="Toallitas Desmaquillantes Nivea"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Toallitas Desmaquillantes Nivea</h5>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
+                <p class="mb-0">$2.294</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-4 col-lg-3 my-2">
+            <div class="card h-100">
+              <div class="card-header">
+                <h5>Cuidado Íntimo</h5>
+              </div>
+              <img
+                src="./img/cuidado de la mujer/evagina.jpg"
+                class="card-img-top img-fluid w-100 h-100"
+                alt="Jabón Íntimo Evagina"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Jabón Íntimo Evagina</h5>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
+                <p class="mb-0">$5.297</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-4 col-lg-3 my-2">
+            <div class="card h-100">
+              <div class="card-header">
+                <h5>Cuidado Íntimo</h5>
+              </div>
+              <img
+                src="./img/cuidado de la mujer/ladysoft.png"
+                class="card-img-top img-fluid w-100 h-100"
+                alt="Tampones Ladysoft"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Tampones Ladysoft</h5>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
+                <p class="mb-0">$2.200</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-4 col-lg-3 my-2">
+            <div class="card h-100">
+              <div class="card-header">
+                <h5>Cuidado Íntimo</h5>
+              </div>
+              <img
+                src="./img/cuidado de la mujer/Siemprelibre.png"
+                class="card-img-top img-fluid w-100 h-100"
+                alt="Toallas Femeninas Siempre Libre"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Toallas Femeninas Siempre Libre</h5>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
+                <p class="mb-0">$4.850</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </article>
+          <article class="col-12 col-md-4 col-lg-3 my-2">
+            <div class="card h-100">
+              <div class="card-header">
+                <h5>Cuidado Íntimo</h5>
+              </div>
+              <img
+                src="./img/cuidado de la mujer/tampax.webp"
+                class="card-img-top img-fluid w-100 h-100"
+                alt="Tampones Tampax"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Tampones Tampax</h5>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
+                <p class="mb-0">$4.850</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-4 col-lg-3 my-2">
+            <div class="card h-100">
+              <div class="card-header">
+                <h5>Cuidado Íntimo</h5>
+              </div>
+              <img
+                src="./img/cuidado de la mujer/tamponesOB.webp"
+                class="card-img-top img-fluid w-100 h-100"
+                alt="Tampones OB"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Tampones OB</h5>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
+                <p class="mb-0">$4.850</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-4 col-lg-3 my-2">
+            <div class="card h-100">
+              <div class="card-header">
+                <h5>Cuidado Íntimo</h5>
+              </div>
+              <img
+                src="./img/cuidado de la mujer/toallitasladydoft.webp"
+                class="card-img-top img-fluid w-100 h-100"
+                alt="Toallitas Femeninas Ladysoft"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Toallitas Femeninas Ladysoft</h5>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
+                <p class="mb-0">$4.850</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="d-grid gap-2 col-6 mx-auto">
+          <button class="btn btn-primary mt-2 mb-4" type="button">Ver mas productos</button>
+        </div>
+     
+      </section>
+
+      <section>
+        <h2 class="h2 text-center my-2">Perfumeria</h2>
+        <div class="row">
+          <article class="col-12 col-md-4 col-lg-3 my-2">
+            <div class="card h-100">
+              <div class="card-header">
+                <h5>Cuidado de la piel</h5>
+              </div>
+              <img
+                src="./img/perfumeria/aveno.jpg"
+                class="card-img-top img-fluid w-100 h-100"
+                alt="Crema Aveno"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Crema Hidratante Aveno</h5>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
+                <p class="mb-0">$5.500</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-4 col-lg-3 my-2">
+            <div class="card h-100">
+              <div class="card-header">
+                <h5>Shampoo</h5>
+              </div>
+              <img
+                src="./img/perfumeria/champudove.webp"
+                class="card-img-top img-fluid w-100 h-100"
+                alt="Shampoo Dove"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Shampoo Dove Reparador 400ml</h5>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
+                <p class="mb-0">$3.200</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-4 col-lg-3 my-2">
+            <div class="card h-100">
+              <div class="card-header">
+                <h5>Perfume</h5>
+              </div>
+              <img
+                src="./img/perfumeria/chanel.jpg"
+                class="card-img-top img-fluid w-100 h-100"
+                alt="Perfume Chanel"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Perfume Chanel Coco Mademoiselle</h5>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
+                <p class="mb-0">$85.000</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-4 col-lg-3 my-2">
+            <div class="card h-100">
+              <div class="card-header">
+                <h5>Cuidado facial</h5>
+              </div>
+              <img
+                src="./img/perfumeria/dermaglos.jpg"
+                class="card-img-top img-fluid w-100 h-100"
+                alt="Crema Dermaglós"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Crema Hidratante Dermaglós</h5>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
+                <p class="mb-0">$4.800</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-4 col-lg-3 my-2">
+            <div class="card h-100">
+              <div class="card-header">
+                <h5>Protección solar</h5>
+              </div>
+              <img
+                src="./img/perfumeria/eucerinsolar.gif"
+                class="card-img-top img-fluid w-100 h-100"
+                alt="Protector solar Eucerin"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Protector Solar Eucerin FPS 50</h5>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
+                <p class="mb-0">$7.200</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-4 col-lg-3 my-2">
+            <div class="card h-100">
+              <div class="card-header">
+                <h5>Jabón</h5>
+              </div>
+              <img
+                src="./img/perfumeria/jabondove.webp"
+                class="card-img-top img-fluid w-100 h-100"
+                alt="Jabón Dove"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Jabón Dove Original 135g</h5>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
+                <p class="mb-0">$1.200</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-4 col-lg-3 my-2">
+            <div class="card h-100">
+              <div class="card-header">
+                <h5>Cuidado facial</h5>
+              </div>
+              <img
+                src="./img/perfumeria/rosasnivea.jpg"
+                class="card-img-top img-fluid w-100 h-100"
+                alt="Crema Nivea Roses"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Crema Hidratante Nivea Roses 50ml</h5>
+              </div>
+              <div
+                class="card-footer d-flex justify-content-between align-items-center"
+              >
+                <p class="mb-0">$3.800</p>
+                <a href="#" class="btn btn-primary">Comprar</a>
+              </div>
+            </div>
+          </article>
+        </div>
+        
+        <div class="d-grid gap-2 col-6 mx-auto">
+          <button class="btn btn-primary mt-2 mb-4" type="button">Ver mas productos</button>
+        </div>
+      </section>
+      </section>
+        </div>
+
+        
+    </main>
+    <footer class=" text-light fw-light">
+      <section class="container pt-4 pb-2">
+        <div class="row h-100">
+          <article class="col-12 col-md-3 col-lg-3">
+            <div class="d-flex flex-row justify-content-center py-4">
+              <a class="navbar-brand" href="./index.html"><img src="../img/logoHerboFarma(1).webp" alt="Logo de la farmacia" class="logo-herbofarma"></a>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-3 col-lg-3 text-center">
+            <h5 class="text-dark text-decoration-underline">Información:</h5>
             <ul class="list-unstyled">
               <li>
-                <a href="#" class="text-black text-decoration-none"
-                  >Sobre nosotros</a
-                >
+                <a href="./pages/Nosotros.html" class="text-light text-decoration-none">Sobre nosotros</a>
               </li>
               <li>
-                <a href="#" class="text-black text-decoration-none"
-                  >Productos</a
-                >
+                <a href="./pages/preguntasFrecuentes.html" class="text-light text-decoration-none">Preguntas Frecuentes</a>
               </li>
               <li>
-                <a href="#" class="text-black text-decoration-none"
-                  >Categorías</a
-                >
-              </li>
-              <li>
-                <a href="#" class="text-black text-decoration-none">Contacto</a>
+                <a href="#" class="text-light text-decoration-none">¿Quieres trabajar con nosotros?</a>
               </li>
             </ul>
           </article>
-          <article class="col-12 col-md-4 text-center gap-2">
-            <h5>Nuestras Redes:</h5>
+
+          <article class="col-12 col-md-3 col-lg-3 text-center">
+            <div class="d-flex flex-row justify-content-center pb-4">
+              <a href="https://guiadetramites.tucuman.gob.ar/organismo/7358/direccion-general-de-fiscalizacion-sanitaria.html"><img src="../img/siprosa-footer.png" alt="logo siprosa" class="logos-legales"></a>
+            </div>
+          </article>
+
+          <article class="col-12 col-md-3 col-lg-3 text-center gap-2 pb-3">
+            <h5 class="text-dark text-decoration-underline">Nuestras redes:</h5>
             <i class="bi bi-instagram fs-3 mx-2"></i>
             <i class="bi bi-facebook fs-3"></i>
             <i class="bi bi-twitter fs-3 mx-2"></i>
           </article>
+
         </div>
       </section>
     </footer>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+   </body>
 </html>
