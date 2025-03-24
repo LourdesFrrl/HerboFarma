@@ -1,6 +1,32 @@
+<<<<<<< HEAD
 /* ----- Detalles de Producto ----- */
 
 body {
+=======
+.imgFarmacia{
+    height: 300px;
+    object-fit: cover;
+}
+
+@media (min-width:768px) and (max-width:991px) {
+ 
+    .imgFarmacia{
+        height: 350px;
+}
+    
+}
+@media (min-width:992px){
+ 
+    .imgFarmacia{
+        height: 550px;
+        object-position: 100% 70%;
+}
+    
+}
+ 
+
+body{
+>>>>>>> 861ff15f3e9daf79406dda92783c44695d9510d7
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -171,6 +197,9 @@ footer {
   padding-top: 9px !important;
 }
 
+.nav-link:hover,
+footer li a:hover,
+i:hover
 .nav-link:hover,footer li a:hover , i:hover {
   color: black !important;
 }
@@ -180,6 +209,7 @@ footer {
 }
 
 .navbar-toggler:focus {
+  border-color: #050b58 !important;
   border-color: #050b58 !important; 
   box-shadow: 0 0 0 0.1rem rgba(0, 7, 71, 0.596) !important;
 }
