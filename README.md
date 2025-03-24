@@ -18,19 +18,30 @@ Este repositorio contiene el código fuente de la página web diseñada para la 
 
 ## 📂 Estructura del Proyecto
 
-## 📂 Estructura del Proyecto
+
 
 La siguiente es la estructura de archivos y carpetas del proyecto:
 
-📁 proyecto-farmacia/
-├── 📁 css/          # Archivos de estilos personalizados  
-├── 📁 js/           # Scripts y funcionalidades dinámicas  
-├── 📁 img/          # Imágenes y recursos gráficos  
-├── 📄 index.html    # Página principal  
-├── 📄 about.html    # Página "Sobre nosotros"  
-├── 📄 contact.html  # Página de contacto  
-└── 📄 README.md     # Documentación del proyecto  
 
+📁 proyecto-farmacia/
+
+├── 📁 css/                          # Archivos de estilos personalizados  
+├── 📁 js/                           # Scripts y funcionalidades dinámicas  
+├── 📁 img/                          # Imágenes y recursos gráficos  
+├── 📄 index.html                    # Página principal  
+├── 📄 error404.html                 # Página de error 404  
+├── 📄 preguntasFrecuentes.html      # Página de Preguntas Frecuentes  
+├── 📄 README.md                     # Documentación del proyecto  
+├── 📄 DetalleCategoria1.html        # Página de detalle de la categoría 1  
+├── 📄 DetalleCategoria2.html        # Página de detalle de la categoría 2  
+├── 📄 Login.html                     # Página de inicio de sesión  
+├── 📄 Registro.html                  # Página de registro de usuario  
+├── 📄 contacto.html                  # Página de contacto  
+├── 📄 Nosotros.html                  # Página "Sobre Nosotros"  
+├── 📄 TrabajaConNosotros.html        # Página para trabajar con nosotros  
+├── 📄 detalleProdAerotina.html       # Página de detalle del producto Aerotina  
+├── 📄 detalleProdTeVerde.html        # Página de detalle del producto Té Verde  
+└── 📄 detalleCarrito.html            # Página de detalle del carrito de compras  
 
 ## 📥 Clonar el Repositorio
 Para clonar este proyecto en tu máquina local, ejecuta el siguiente comando en tu terminal:
