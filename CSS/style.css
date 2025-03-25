@@ -68,7 +68,7 @@ footer {
   color: #8c8c8c;
 }
 
-.imagen-detale-prod {
+.imagen-detalle-prod {
   object-fit: cover;
   height: 100%;
 }
@@ -92,6 +92,32 @@ textarea {
   object-fit: cover;
   width: 50%;
   border-radius: 15px;
+}
+
+/* ----- Detalle de Carrito ----- */
+
+.bolsa:hover {
+  background-color: transparent !important;
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+.product-card {
+  border: 1px solid #dee2e6; 
+  margin-bottom: 1rem;
+}
+
+.product-image {
+  max-width: 100px;
+  height: auto;
+}
+
+.product-card h5 {
+  margin-bottom: 0.5rem;
+}
+
+.product-card p {
+  margin-bottom: 0;
 }
 
 /* ----- INDEX ----- */
@@ -144,59 +170,12 @@ object-fit: cover;
     height: 350px;
   }
 }
+
 @media (min-width:992px) {
   .imgFarmacia{
     height: 550px;
     object-position: 100% 70%;
   }
-}
-.navbar {
-  background-color: #4781b1;
-}
-
-footer {
-  background-color: #4781b1;
-}
-
-.nav-link {
-  color: white !important;
-}
-
-.link-comun {
-  padding-top: 16px !important;
-}
-
-.link-sesion {
-  padding-top: 9px !important;
-}
-
-.nav-link:hover,footer li a:hover , i:hover {
-  color: black !important;
-}
-
-.dropdown-toggle::after {
-  display: none !important;
-}
-
-.navbar-toggler:focus {
-  border-color: #050b58 !important; 
-  box-shadow: 0 0 0 0.1rem rgba(0, 7, 71, 0.596) !important;
-}
-.logo-herbofarma {
-  object-fit: cover;
-  width: 100%;
-}
-
-.logo-herbofarma-nav {
-  object-fit: cover;
-  width: 100%;
-  height: 45px;
-}
-
-.logos-legales {
-  object-fit: cover;
-  width: 50%;
-  border-radius: 15px;
 }
 
 .team-member {
@@ -224,23 +203,6 @@ footer {
     img{
       object-fit: contain;
     }
-    .upload-box {
-      border: 2px dashed #ccc;
-      border-radius: 10px;
-      padding: 30px;
-      text-align: center;
-      background-color: #f8f9fa;
-    }
-    .upload-box:hover {
-      border-color: #6c757d;
-    }
-    .upload-box img {
-      width: 40px;
-      margin-bottom: 10px;
-    }
-    .info-list i {
-      color: #6c757d;
-      margin-right: 8px;
 
     textarea{
       resize: none !important;
