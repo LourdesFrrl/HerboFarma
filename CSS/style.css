@@ -94,6 +94,32 @@ textarea {
   border-radius: 15px;
 }
 
+/* ----- Detalle de Carrito ----- */
+
+.bolsa:hover {
+  background-color: transparent !important;
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+.product-card {
+  border: 1px solid #dee2e6; 
+  margin-bottom: 1rem;
+}
+
+.product-image {
+  max-width: 100px;
+  height: auto;
+}
+
+.product-card h5 {
+  margin-bottom: 0.5rem;
+}
+
+.product-card p {
+  margin-bottom: 0;
+}
+
 /* ----- INDEX ----- */
 
 .imgBanner {
