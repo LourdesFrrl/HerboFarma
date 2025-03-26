@@ -141,7 +141,7 @@ textarea {
 }
 
 .tiendaOnlineTitulo {
-  color: rgb(138, 126, 149) !important;
+  color: rgb(30, 86, 160) !important;
   text-shadow: 0px 0px 5px;
 }
 
@@ -162,17 +162,39 @@ object-fit: cover;
 
 .imgFarmacia {
   height: 300px;
+  width: 100vw;
   object-fit: cover;
-}
+  object-position: 20% 100%;
+
+  }
+  .imgBanerAvene{
+  height: 300px;
+  width: 100vw;
+  object-fit: cover;
+  object-position: 70% 100%;
+
+  }
 
 @media (min-width:768px) and (max-width:991px) {
   .imgFarmacia{
     height: 350px;
+    width: 100vw;
   }
+  .imgBanerAvene{
+    height: 350px;
+    width: 100vw;
+    object-position: 25% 100%;
+
+  }
+  
 }
 
 @media (min-width:992px) {
   .imgFarmacia{
+    height: 550px;
+    object-position: 100% 70%;
+  }
+  .imgBanerAvene{
     height: 550px;
     object-position: 100% 70%;
   }
@@ -207,3 +229,25 @@ object-fit: cover;
     textarea{
       resize: none !important;
     }
+
+    .upload-box {
+      border: 2px dashed #ccc;
+      border-radius: 10px;
+      padding: 30px;
+      text-align: center;
+      background-color: #f8f9fa;
+    }
+    .upload-box:hover {
+      border-color: #6c757d;
+    }
+    .upload-box img {
+      width: 40px;
+      margin-bottom: 10px;
+    }
+    .info-list i {
+      color: #6c757d;
+      margin-right: 8px;}
+
+      .bannerPregFreg{
+        object-fit: cover;
+      }
