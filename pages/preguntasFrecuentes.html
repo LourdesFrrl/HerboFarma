@@ -4,17 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Preguntas Frecuentes</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <link rel="stylesheet" href="../CSS/style.css" />
     <link rel="stylesheet" href="../CSS/bootstrap.min.css" />
-    <meta name="author" content="Santiago Lacki, Maria Lourdes Ferraioli, Agustina Hernandez, Ignacio Barrojo, Luis Martin Diaz"/> 
+    <meta
+      name="author"
+      content="Santiago Lacki, Maria Lourdes Ferraioli, Agustina Hernandez, Ignacio Barrojo, Luis Martin Diaz"
+    />
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand-lg fw-bold">
         <div class="container">
-          <a class="navbar-brand" href="../index.html"><img src="../img/logoHerboFarma(1).webp" alt="Logo de la farmacia" class="logo-herbofarma-nav"></a>
-          <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand" href="../index.html"
+            ><img
+              src="../img/logoHerboFarma(1).webp"
+              alt="Logo de la farmacia"
+              class="logo-herbofarma-nav"
+          /></a>
+          <button
+            class="navbar-toggler bg-light"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -23,26 +42,51 @@
                 <a class="nav-link link-comun" href="../index.html">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link link-comun" href="#">Nosotros</a>
+                <a class="nav-link link-comun" href="./Nosotros.html"
+                  >Nosotros</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link link-comun" href="#">Contacto</a>
+                <a class="nav-link link-comun" href="./Contactos.html"
+                  >Contacto</a
+                >
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link link-sesion dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a
+                  class="nav-link link-sesion dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
                   <i class="bi bi-person-circle fs-4 me-1"></i>
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Iniciar Sesion</a></li>
-                  <li><a class="dropdown-item" href="#">Registrarse</a></li>
+                  <li>
+                    <a class="dropdown-item" href="./login.html"
+                      >Iniciar Sesion</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./registro.html"
+                      >Registrarse</a
+                    >
+                  </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="bi bi-bag-plus-fill fs-4"></i></a>
+                <a class="nav-link" href="./detalleCarrito.html"
+                  ><i class="bi bi-bag-plus-fill fs-4"></i
+                ></a>
               </li>
             </ul>
             <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Buscar"
+                aria-label="Search"
+              />
               <button class="btn btn-light" type="submit">Buscar</button>
             </form>
           </div>
@@ -50,126 +94,215 @@
       </nav>
     </header>
     <main class="bg-light">
-        <article class="d-flex justify-content-center gap-1 pb-3">
-            <img src="../img/preguntasfrecuentes/pf4.webp" alt="consulta farmaceutica" class="col-4 img-fluid">
-            <img src="../img/preguntasfrecuentes/pf2.jpg" alt="consulta farmaceutica" class="col-4 img-fluid">
-            <img src="../img/preguntasfrecuentes/pf5.avif" alt="consulta farmaceutica" class="col-4 img-fluid">
-        </article>
-        <h1 class="h1 text-center py-2"> Preguntas Frecuentes</h1>
+      <article class="d-flex justify-content-center gap-1">
+        <img
+          src="../img/preguntasfrecuentes/pf4.webp"
+          alt="consulta farmaceutica"
+          class="col-4 img-fluid bannerPregFreg"
+        />
+        <img
+          src="../img/preguntasfrecuentes/pf2.jpg"
+          alt="consulta farmaceutica"
+          class="col-4 img-fluid bannerPregFreg"
+        />
+        <img
+          src="../img/preguntasfrecuentes/pf5.avif"
+          alt="consulta farmaceutica"
+          class="col-4 img-fluid bannerPregFreg"
+        />
+      </article>
 
-        <article class="container accordion pt-4 pb-5" id="faqAccordion">
-            <div class="accordion-item my-2">
-              <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true" aria-controls="faq1">
-                  ¿Cómo realizo una compra en la farmacia online?
-                </button>
-              </h2>
-              <div id="faq1" class="accordion-collapse collapse show">
-                <div class="accordion-body">
-                  Para comprar en nuestra farmacia online, simplemente navega por nuestro catálogo, agrega los productos al carrito y finaliza tu compra seleccionando el método de pago y envío que prefieras.
-                </div>
-              </div>
+      <h1 class="h1 text-center py-2">Preguntas Frecuentes</h1>
+
+      <article class="container accordion pt-4 pb-5" id="faqAccordion">
+        <div class="accordion-item my-2">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#faq1"
+              aria-expanded="true"
+              aria-controls="faq1"
+            >
+              ¿Cómo realizo una compra en la farmacia online?
+            </button>
+          </h2>
+          <div id="faq1" class="accordion-collapse collapse show">
+            <div class="accordion-body">
+              Para comprar en nuestra farmacia online, simplemente navega por
+              nuestro catálogo, agrega los productos al carrito y finaliza tu
+              compra seleccionando el método de pago y envío que prefieras.
             </div>
-            
-            <div class="accordion-item my-2">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
-                  ¿Realizan envíos a domicilio?
-                </button>
-              </h2>
-              <div id="faq2" class="accordion-collapse collapse">
-                <div class="accordion-body">
-                  Sí, realizamos envíos a domicilio en todo el país. Los tiempos y costos de envío varían según la ubicación. Consulta nuestra sección de envíos para más detalles.
-                </div>
-              </div>
+          </div>
+        </div>
+
+        <div class="accordion-item my-2">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#faq2"
+              aria-expanded="false"
+              aria-controls="faq2"
+            >
+              ¿Realizan envíos a domicilio?
+            </button>
+          </h2>
+          <div id="faq2" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              Sí, realizamos envíos a domicilio en todo el país. Los tiempos y
+              costos de envío varían según la ubicación. Consulta nuestra
+              sección de envíos para más detalles.
             </div>
-            
-            <div class="accordion-item my-2">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
-                  ¿Cómo solicito una fórmula magistral?
-                </button>
-              </h2>
-              <div id="faq3" class="accordion-collapse collapse">
-                <div class="accordion-body">
-                  Para solicitar una fórmula magistral, debes enviarnos la receta médica correspondiente. Puedes cargarla en nuestro sitio web o traerla a la farmacia. Nuestro equipo la preparará siguiendo estrictos estándares de calidad.
-                </div>
-              </div>
+          </div>
+        </div>
+
+        <div class="accordion-item my-2">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#faq3"
+              aria-expanded="false"
+              aria-controls="faq3"
+            >
+              ¿Cómo solicito una fórmula magistral?
+            </button>
+          </h2>
+          <div id="faq3" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              Para solicitar una fórmula magistral, debes enviarnos la receta
+              médica correspondiente. Puedes cargarla en nuestro sitio web o
+              traerla a la farmacia. Nuestro equipo la preparará siguiendo
+              estrictos estándares de calidad.
             </div>
-            
-            <div class="accordion-item my-2">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false" aria-controls="faq4">
-                  ¿Puedo comprar medicamentos con receta?
-                </button>
-              </h2>
-              <div id="faq4" class="accordion-collapse collapse">
-                <div class="accordion-body">
-                  Sí, para la compra de medicamentos con receta es necesario cargar la receta en nuestra plataforma o presentarla al momento de la entrega en la farmacia.
-                </div>
-              </div>
+          </div>
+        </div>
+
+        <div class="accordion-item my-2">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#faq4"
+              aria-expanded="false"
+              aria-controls="faq4"
+            >
+              ¿Puedo comprar medicamentos con receta?
+            </button>
+          </h2>
+          <div id="faq4" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              Sí, para la compra de medicamentos con receta es necesario cargar
+              la receta en nuestra plataforma o presentarla al momento de la
+              entrega en la farmacia.
             </div>
-            
-            <div class="accordion-item my-2">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false" aria-controls="faq5">
-                  ¿Cuáles son los métodos de pago disponibles?
-                </button>
-              </h2>
-              <div id="faq5" class="accordion-collapse collapse">
-                <div class="accordion-body">
-                  Aceptamos pagos con tarjetas de crédito, débito, transferencias bancarias y pagos en efectivo en puntos de pago habilitados.
-                </div>
-              </div>
+          </div>
+        </div>
+
+        <div class="accordion-item my-2">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#faq5"
+              aria-expanded="false"
+              aria-controls="faq5"
+            >
+              ¿Cuáles son los métodos de pago disponibles?
+            </button>
+          </h2>
+          <div id="faq5" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              Aceptamos pagos con tarjetas de crédito, débito, transferencias
+              bancarias y pagos en efectivo en puntos de pago habilitados.
             </div>
-            
-            <div class="accordion-item my-2">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6" aria-expanded="false" aria-controls="faq6">
-                  ¿Cuánto tiempo tarda en prepararse una fórmula magistral?
-                </button>
-              </h2>
-              <div id="faq6" class="accordion-collapse collapse">
-                <div class="accordion-body">
-                  El tiempo de preparación de una fórmula magistral depende de su complejidad y disponibilidad de ingredientes, pero generalmente toma entre 24 y 72 horas.
-                </div>
-              </div>
+          </div>
+        </div>
+
+        <div class="accordion-item my-2">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#faq6"
+              aria-expanded="false"
+              aria-controls="faq6"
+            >
+              ¿Cuánto tiempo tarda en prepararse una fórmula magistral?
+            </button>
+          </h2>
+          <div id="faq6" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              El tiempo de preparación de una fórmula magistral depende de su
+              complejidad y disponibilidad de ingredientes, pero generalmente
+              toma entre 24 y 72 horas.
             </div>
-            
-            <div class="accordion-item my-2">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq7" aria-expanded="false" aria-controls="faq7">
-                  ¿Ofrecen asesoramiento farmacéutico?
-                </button>
-              </h2>
-              <div id="faq7" class="accordion-collapse collapse">
-                <div class="accordion-body">
-                  Sí, contamos con farmacéuticos capacitados que pueden brindarte asesoramiento sobre el uso de medicamentos, interacciones y cualquier otra consulta relacionada con tu tratamiento.
-                </div>
-              </div>
+          </div>
+        </div>
+
+        <div class="accordion-item my-2">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#faq7"
+              aria-expanded="false"
+              aria-controls="faq7"
+            >
+              ¿Ofrecen asesoramiento farmacéutico?
+            </button>
+          </h2>
+          <div id="faq7" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              Sí, contamos con farmacéuticos capacitados que pueden brindarte
+              asesoramiento sobre el uso de medicamentos, interacciones y
+              cualquier otra consulta relacionada con tu tratamiento.
             </div>
-            
-            <div class="accordion-item my-2">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq8" aria-expanded="false" aria-controls="faq8">
-                  ¿Puedo devolver un medicamento?
-                </button>
-              </h2>
-              <div id="faq8" class="accordion-collapse collapse">
-                <div class="accordion-body">
-                  Por normativas sanitarias, los medicamentos no pueden ser devueltos una vez vendidos, salvo en casos de error en la dispensación o defectos de fabricación.
-                </div>
-              </div>
+          </div>
+        </div>
+
+        <div class="accordion-item my-2">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#faq8"
+              aria-expanded="false"
+              aria-controls="faq8"
+            >
+              ¿Puedo devolver un medicamento?
+            </button>
+          </h2>
+          <div id="faq8" class="accordion-collapse collapse">
+            <div class="accordion-body">
+              Por normativas sanitarias, los medicamentos no pueden ser
+              devueltos una vez vendidos, salvo en casos de error en la
+              dispensación o defectos de fabricación.
             </div>
-          </article>
-        
+          </div>
+        </div>
+      </article>
     </main>
-    <footer class=" text-light fw-light">
+    <footer class="text-light fw-light">
       <section class="container pt-4 pb-2">
         <div class="row h-100">
           <article class="col-12 col-md-3 col-lg-3">
             <div class="d-flex flex-row justify-content-center py-4">
-              <a class="navbar-brand" href="../index.html"><img src="../img/logoHerboFarma(1).webp" alt="Logo de la farmacia" class="logo-herbofarma"></a>
+              <a class="navbar-brand" href="../index.html"
+                ><img
+                  src="../img/logoHerboFarma(1).webp"
+                  alt="Logo de la farmacia"
+                  class="logo-herbofarma"
+              /></a>
             </div>
           </article>
 
@@ -177,35 +310,66 @@
             <h5 class="text-dark text-decoration-underline">Información:</h5>
             <ul class="list-unstyled">
               <li>
-                <a href="#" class="text-light text-decoration-none">Sobre nosotros</a>
+                <a
+                  href="./Nosotros.html"
+                  class="text-light text-decoration-none"
+                  >Sobre nosotros</a
+                >
               </li>
               <li>
-                <a href="#" class="text-light text-decoration-none">Preguntas Frecuentes</a>
+                <a
+                  href="./preguntasFrecuentes.html"
+                  class="text-light text-decoration-none"
+                  >Preguntas Frecuentes</a
+                >
               </li>
               <li>
-                <a href="#" class="text-light text-decoration-none">¿Quieres trabajar con nosotros?</a>
+                <a
+                  href="./TrabajaConNosotros.html"
+                  class="text-light text-decoration-none"
+                  >¿Quieres trabajar con nosotros?</a
+                >
               </li>
             </ul>
           </article>
 
           <article class="col-12 col-md-3 col-lg-3 text-center">
             <div class="d-flex flex-row justify-content-center pb-4">
-              <a href="https://guiadetramites.tucuman.gob.ar/organismo/7358/direccion-general-de-fiscalizacion-sanitaria.html"><img src="../img/siprosa-footer.png" alt="logo siprosa" class="logos-legales"></a>
+              <a
+                href="https://guiadetramites.tucuman.gob.ar/organismo/7358/direccion-general-de-fiscalizacion-sanitaria.html"
+                ><img
+                  src="../img/siprosa-footer.png"
+                  alt="logo siprosa"
+                  class="logos-legales"
+              /></a>
             </div>
           </article>
 
           <article class="col-12 col-md-3 col-lg-3 text-center gap-2 pb-3">
             <h5 class="text-dark text-decoration-underline">Nuestras redes:</h5>
-            <i class="bi bi-instagram fs-3 mx-2"></i>
-            <i class="bi bi-facebook fs-3"></i>
-            <i class="bi bi-twitter fs-3 mx-2"></i>
+            <a
+              href="../pages/error404.html"
+              class="text-light text-decoration-none"
+              ><i class="bi bi-instagram fs-3 mx-2"></i
+            ></a>
+            <a
+              href="../pages/error404.html"
+              class="text-light text-decoration-none"
+              ><i class="bi bi-facebook fs-3"></i
+            ></a>
+            <a
+              href="../pages/error404.html"
+              class="text-light text-decoration-none"
+              ><i class="bi bi-twitter fs-3 mx-2"></i
+            ></a>
           </article>
-
         </div>
       </section>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
-    
-    
