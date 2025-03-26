@@ -162,17 +162,39 @@ object-fit: cover;
 
 .imgFarmacia {
   height: 300px;
+  width: 100vw;
   object-fit: cover;
-}
+  object-position: 20% 100%;
+
+  }
+  .imgBanerAvene{
+  height: 300px;
+  width: 100vw;
+  object-fit: cover;
+  object-position: 60% 100%;
+
+  }
 
 @media (min-width:768px) and (max-width:991px) {
   .imgFarmacia{
     height: 350px;
+    width: 100vw;
   }
+  .imgBanerAvene{
+    height: 350px;
+    width: 100vw;
+    object-position: 25% 100%;
+
+  }
+  
 }
 
 @media (min-width:992px) {
   .imgFarmacia{
+    height: 550px;
+    object-position: 100% 70%;
+  }
+  .imgBanerAvene{
     height: 550px;
     object-position: 100% 70%;
   }
